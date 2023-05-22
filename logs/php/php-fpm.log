@@ -1,0 +1,1157 @@
+[13-Apr-2023 13:00:14] NOTICE: fpm is running, pid 1551
+[13-Apr-2023 13:00:14] NOTICE: ready to handle connections
+[13-Apr-2023 16:58:38] NOTICE: Terminating ...
+[13-Apr-2023 16:58:38] NOTICE: Terminating ...
+[13-Apr-2023 16:58:38] NOTICE: exiting, bye-bye!
+[14-Apr-2023 10:02:53] NOTICE: fpm is running, pid 886
+[14-Apr-2023 10:02:53] NOTICE: ready to handle connections
+[14-Apr-2023 12:31:35] NOTICE: Terminating ...
+[14-Apr-2023 12:31:35] NOTICE: Terminating ...
+[14-Apr-2023 12:31:35] NOTICE: exiting, bye-bye!
+[15-Apr-2023 15:29:01] NOTICE: fpm is running, pid 1260
+[15-Apr-2023 15:29:01] NOTICE: ready to handle connections
+[15-Apr-2023 20:38:30] NOTICE: Terminating ...
+[15-Apr-2023 20:38:30] NOTICE: Terminating ...
+[15-Apr-2023 20:38:30] NOTICE: exiting, bye-bye!
+[17-Apr-2023 11:30:53] NOTICE: fpm is running, pid 1381
+[17-Apr-2023 11:30:53] NOTICE: ready to handle connections
+[17-Apr-2023 16:00:12] NOTICE: Terminating ...
+[17-Apr-2023 16:00:12] NOTICE: Terminating ...
+[17-Apr-2023 16:00:12] NOTICE: exiting, bye-bye!
+[18-Apr-2023 13:02:47] NOTICE: fpm is running, pid 1633
+[18-Apr-2023 13:02:47] NOTICE: ready to handle connections
+[18-Apr-2023 15:41:36] NOTICE: Terminating ...
+[18-Apr-2023 15:41:36] NOTICE: Terminating ...
+[18-Apr-2023 15:41:36] NOTICE: exiting, bye-bye!
+[22-May-2023 15:45:47] NOTICE: fpm is running, pid 3220
+[22-May-2023 15:45:47] NOTICE: ready to handle connections
+[22-May-2023 15:48:54] NOTICE: Terminating ...
+[22-May-2023 15:48:54] NOTICE: Terminating ...
+[22-May-2023 15:48:54] NOTICE: exiting, bye-bye!
+[22-May-2023 15:49:17] NOTICE: fpm is running, pid 3531
+[22-May-2023 15:49:17] NOTICE: ready to handle connections
+[22-May-2023 15:53:28] NOTICE: Terminating ...
+[22-May-2023 15:53:28] NOTICE: Terminating ...
+[22-May-2023 15:53:28] NOTICE: exiting, bye-bye!
+[22-May-2023 15:54:22] NOTICE: fpm is running, pid 3872
+[22-May-2023 15:54:22] NOTICE: ready to handle connections
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: GET]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c80b200)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "> GET / HTTP/2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 200 "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:40 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 20:56:40 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 15793 url = / (zero-length body)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: POST]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c810c00)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "> POST / HTTP/2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 200 "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:40 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 20:56:40 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 15793 url = / (zero-length body)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: PUT]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e817c00)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "> PUT / HTTP/2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:40 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: DELETE]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e81d400)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "> DELETE / HTTP/2"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:40 GMT"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:40] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: HEAD]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c015000)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "> HEAD / HTTP/2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 200 "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:44 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 20:56:44 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: OPTIONS]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c80b200)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "> OPTIONS / HTTP/2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:44 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: CONNECT]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c812200)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "> CONNECT / HTTP/2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:44 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:method: TRACE]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0f01c000)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "> TRACE / HTTP/2"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "accept: */*"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: ""
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< date: Mon, 22 May 2023 20:56:44 GMT"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "< "
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:44] WARNING: [pool www] child 3880 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: TRACK]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c813400)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "> TRACK / HTTP/2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 20:56:50 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: PATCH]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c02bc00)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "> PATCH / HTTP/2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 20:56:50 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: COPY]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c810c00)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "> COPY / HTTP/2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 20:56:50 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: LINK]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c00f000)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "> LINK / HTTP/2"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 20:56:50 GMT"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 15:56:50] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: GET]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e815000)"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "> GET / HTTP/2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 200 "
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:17 GMT"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 21:42:17 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 15793 url = / (zero-length body)"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: POST]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0f00f200)"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "> POST / HTTP/2"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:17] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 200 "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:18 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 21:42:17 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 15793 url = / (zero-length body)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: PUT]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c011e00)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "> PUT / HTTP/2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:18 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: DELETE]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0f00f400)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "> DELETE / HTTP/2"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:18 GMT"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:18] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: HEAD]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c011e00)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "> HEAD / HTTP/2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 200 "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:20 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html; charset=UTF-8"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< vary: Accept-Encoding"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< x-powered-by: PHP/8.1.9"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< x-pingback: https://peruconexiontravel.com/xmlrpc.php"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< set-cookie: pll_language=es; expires=Tue, 21-May-2024 21:42:20 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/>; rel="https://api.w.org/""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< link: <https://peruconexiontravel.com/>; rel=shortlink"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: OPTIONS]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c810c00)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "> OPTIONS / HTTP/2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:20 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: CONNECT]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e00d400)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "> CONNECT / HTTP/2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:20 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: TRACE]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0f00b200)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "> TRACE / HTTP/2"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:20 GMT"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:20] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: TRACK]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c01ae00)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "> TRACK / HTTP/2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:26 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: PATCH]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e816200)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "> PATCH / HTTP/2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:26 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: COPY]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e81ba00)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "> COPY / HTTP/2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:26 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: LINK]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e813c00)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "> LINK / HTTP/2"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:26 GMT"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:26] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: UNLINK]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0f00b200)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "> UNLINK / HTTP/2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:42 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: PURGE]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c00e000)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "> PURGE / HTTP/2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:42 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: LOCK]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0d854a00)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "> LOCK / HTTP/2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:42 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: UNLOCK]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0e826200)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "> UNLOCK / HTTP/2"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:42 GMT"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:42] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: PROPFIND]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c810c00)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "> PROPFIND / HTTP/2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:47 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*   Trying ::1:443..."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*   Trying 127.0.0.1:443..."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connected to peruconexiontravel.com (127.0.0.1) port 443 (#0)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers h2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: offers http/1.1"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* ALPN: server accepted h2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Server certificate:"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  subject: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  start date: May 22 20:46:12 2023 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  expire date: May 22 20:46:12 2033 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  subjectAltName: host "peruconexiontravel.com" matched cert's "peruconexiontravel.com""
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  issuer: CN=peruconexiontravel.com; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Using HTTP2, server supports multiplexing"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:method: VIEW]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:path: /]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:scheme: https]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [:authority: peruconexiontravel.com]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* h2h3 [accept: */*]"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Using Stream ID: 1 (easy handle 0x7fdf0c817e00)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "> VIEW / HTTP/2"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "Host: peruconexiontravel.com"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "accept: */*"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: ""
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< HTTP/2 405 "
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< server: nginx/1.16.0"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< date: Mon, 22 May 2023 21:42:47 GMT"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< content-type: text/html"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< content-length: 157"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< "
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
