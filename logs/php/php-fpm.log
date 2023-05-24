@@ -1155,3 +1155,13 @@
 [22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "< "
 [22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
 [22-May-2023 16:42:47] WARNING: [pool www] child 3879 said into stderr: "* Connection #0 to host peruconexiontravel.com left intact"
+[22-May-2023 17:54:18] NOTICE: Terminating ...
+[22-May-2023 17:54:18] NOTICE: Terminating ...
+[22-May-2023 17:54:18] NOTICE: exiting, bye-bye!
+[24-May-2023 11:55:39] NOTICE: fpm is running, pid 2019
+[24-May-2023 11:55:39] NOTICE: ready to handle connections
+[24-May-2023 12:02:45] NOTICE: Terminating ...
+[24-May-2023 12:02:45] NOTICE: Terminating ...
+[24-May-2023 12:02:45] NOTICE: exiting, bye-bye!
+[24-May-2023 12:05:24] NOTICE: fpm is running, pid 2485
+[24-May-2023 12:05:24] NOTICE: ready to handle connections

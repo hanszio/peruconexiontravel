@@ -42,7 +42,7 @@ endif; ?>
     <div class="contentItemsCat container">
       <div class="descripCat"><?php echo category_description(); ?></div>
       <?php if (is_category(array(18))) { ?>
-        <?php query_posts('cat=8&posts_per_page=1'); ?>
+        <?php query_posts('cat=18&posts_per_page=1'); ?>
         <div class="conBlog">
           <?php while (have_posts()) : the_post(); ?>
             <div class="imgBlog reset BlogImgBlog">

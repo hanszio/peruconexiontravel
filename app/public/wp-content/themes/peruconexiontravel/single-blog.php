@@ -37,7 +37,9 @@ endif; ?>
             </article>
         </div>
         <div class="BoxSingleRigth">
+            <?php include(TEMPLATEPATH . "/menu-blog-destacados.php"); ?>
             <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Testimonio')) : endif; ?>
+            <?php include(TEMPLATEPATH . "/blog-aside.php"); ?>
         </div>
     </div>
 </div>
