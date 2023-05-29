@@ -2,4 +2,8 @@ conf/
 logs/
 app/sql/
 app/public/wp-config.php
+app/public/local (1).sql
 app/sql/
+.DS_Store
+app/.DS_Store
+app/public/.DS_Store
