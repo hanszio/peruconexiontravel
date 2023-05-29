@@ -2,14 +2,14 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: Really Simple SSL 7.0.2\n"
+"Project-Id-Version: Really Simple SSL 7.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/really-simple-ssl\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-05-23T06:33:44+00:00\n"
+"POT-Creation-Date: 2023-05-25T10:25:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: really-simple-ssl\n"
@@ -479,71 +479,71 @@ msgstr ""
 msgid "Activate SSL per site or install a wildcard certificate to fix this."
 msgstr ""
 
-#: class-site-health.php:31
+#: class-site-health.php:29
 msgid "SSL Status Test"
 msgstr ""
 
-#: class-site-health.php:36
+#: class-site-health.php:34
 msgid "Security Headers Test"
 msgstr ""
 
-#: class-site-health.php:82
+#: class-site-health.php:77
 msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
 msgstr ""
 
-#: class-site-health.php:88
+#: class-site-health.php:83
 msgid "Remove from public location with Really Simple SSL"
 msgstr ""
 
-#: class-site-health.php:104
+#: class-site-health.php:99
 msgid "Your site is set to display errors on your website"
 msgstr ""
 
-#: class-site-health.php:112
+#: class-site-health.php:107
 msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
 msgstr ""
 
-#: class-site-health.php:118
+#: class-site-health.php:113
 msgid "Read more about security concerns with debug display enabled"
 msgstr ""
 
-#: class-site-health.php:135
+#: class-site-health.php:130
 msgid "Recommended security headers installed"
 msgstr ""
 
-#: class-site-health.php:143
+#: class-site-health.php:138
 msgid "The recommended security headers are detected on your site."
 msgstr ""
 
-#: class-site-health.php:155
+#: class-site-health.php:150
 msgid "Not all recommended security headers are installed"
 msgstr ""
 
-#: class-site-health.php:156
+#: class-site-health.php:151
 msgid "Your website does not send all recommended security headers."
 msgstr ""
 
-#: class-site-health.php:160
+#: class-site-health.php:155
 msgid "Learn more about security headers"
 msgstr ""
 
-#: class-site-health.php:175
+#: class-site-health.php:170
 msgid "301 SSL redirect enabled"
 msgstr ""
 
-#: class-site-health.php:183
+#: class-site-health.php:178
 msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
 msgstr ""
 
-#: class-site-health.php:192
+#: class-site-health.php:187
 msgid "SSL is not enabled."
 msgstr ""
 
-#: class-site-health.php:195
+#: class-site-health.php:190
 msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
 msgstr ""
 
-#: class-site-health.php:201
+#: class-site-health.php:196
 #: settings/build/688.js:1
 #: settings/build/885.js:1
 #: settings/build/967.js:1
@@ -552,35 +552,35 @@ msgstr ""
 msgid "Activate SSL"
 msgstr ""
 
-#: class-site-health.php:205
+#: class-site-health.php:200
 msgid "No SSL detected."
 msgstr ""
 
-#: class-site-health.php:208
+#: class-site-health.php:203
 msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
 msgstr ""
 
-#: class-site-health.php:214
+#: class-site-health.php:209
 msgid "No 301 redirect to SSL enabled."
 msgstr ""
 
-#: class-site-health.php:217
+#: class-site-health.php:212
 msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
 msgstr ""
 
-#: class-site-health.php:222
+#: class-site-health.php:217
 msgid "Enable 301 redirect"
 msgstr ""
 
-#: class-site-health.php:226
+#: class-site-health.php:221
 msgid "301 .htaccess redirect is not enabled."
 msgstr ""
 
-#: class-site-health.php:229
+#: class-site-health.php:224
 msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
 msgstr ""
 
-#: class-site-health.php:234
+#: class-site-health.php:229
 msgid "Enable 301 .htaccess redirect"
 msgstr ""
 
@@ -1877,8 +1877,34 @@ msgstr ""
 msgid "forbidden - number in author name not allowed = %s"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:193
-#: security/wordpress/vulnerabilities.php:1362
+#: security/wordpress/vulnerabilities.php:179
+msgid "No known vulnerabilities detected"
+msgstr ""
+
+#: security/wordpress/vulnerabilities.php:187
+msgid "No known vulnerabilities detected."
+msgstr ""
+
+#: security/wordpress/vulnerabilities.php:199
+msgid "Vulnerabilities detected"
+msgstr ""
+
+#: security/wordpress/vulnerabilities.php:207
+msgid "%s vulnerability has been detected."
+msgid_plural "%s vulnerabilities have been detected."
+msgstr[0] ""
+msgstr[1] ""
+
+#: security/wordpress/vulnerabilities.php:208
+msgid "Please check the vulnerabilities overview for more information and take appropriate action."
+msgstr ""
+
+#: security/wordpress/vulnerabilities.php:213
+msgid "View vulnerabilities"
+msgstr ""
+
+#: security/wordpress/vulnerabilities.php:247
+#: security/wordpress/vulnerabilities.php:1416
 #: settings/build/688.js:1
 #: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:38
 msgid "vulnerability"
@@ -1886,29 +1912,29 @@ msgid_plural "vulnerabilities"
 msgstr[0] ""
 msgstr[1] ""
 
-#: security/wordpress/vulnerabilities.php:200
-#: security/wordpress/vulnerabilities.php:1367
+#: security/wordpress/vulnerabilities.php:254
+#: security/wordpress/vulnerabilities.php:1421
 msgid "You have %s %s %s"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:201
+#: security/wordpress/vulnerabilities.php:255
 msgid "You have %s %s %s. Please take appropriate action."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:230
+#: security/wordpress/vulnerabilities.php:284
 msgid "Site wide - Test Notification"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:231
-#: security/wordpress/vulnerabilities.php:253
+#: security/wordpress/vulnerabilities.php:285
+#: security/wordpress/vulnerabilities.php:307
 msgid "This is a test notification from Really Simple SSL. You can safely dismiss this message."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:252
+#: security/wordpress/vulnerabilities.php:306
 msgid "Dashboard - Test Notification"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:453
+#: security/wordpress/vulnerabilities.php:507
 #: settings/config/menu.php:74
 #: settings/config/menu.php:80
 #: settings/build/688.js:1
@@ -1916,52 +1942,52 @@ msgstr ""
 msgid "Vulnerabilities"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:468
+#: security/wordpress/vulnerabilities.php:522
 msgid "Force update"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:470
+#: security/wordpress/vulnerabilities.php:524
 msgid "Will run a frequent update process on vulnerable components."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:474
+#: security/wordpress/vulnerabilities.php:528
 msgid "Quarantine"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:476
+#: security/wordpress/vulnerabilities.php:530
 msgid "Components will be quarantined if the update process fails."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:548
-#: security/wordpress/vulnerabilities.php:1012
+#: security/wordpress/vulnerabilities.php:602
+#: security/wordpress/vulnerabilities.php:1066
 msgid "Quarantined"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:995
+#: security/wordpress/vulnerabilities.php:1049
 msgid "Vulnerability: %s"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1330
+#: security/wordpress/vulnerabilities.php:1384
 msgid "Vulnerability Alert: %s"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1331
+#: security/wordpress/vulnerabilities.php:1385
 msgid "%s: %s vulnerabilities found"
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1332
+#: security/wordpress/vulnerabilities.php:1386
 msgid "This is a vulnerability alert from Really Simple SSL for %s. "
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1364
+#: security/wordpress/vulnerabilities.php:1418
 msgid "A %s vulnerability is found in %s."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1364
+#: security/wordpress/vulnerabilities.php:1418
 msgid "Multiple %s vulnerabilities have been found."
 msgstr ""
 
-#: security/wordpress/vulnerabilities.php:1369
+#: security/wordpress/vulnerabilities.php:1423
 msgid "Based on your settings, Really Simple SSL will take appropriate action, or you will need to solve it manually."
 msgstr ""
 
