@@ -217,6 +217,10 @@ header {
 	position: unset;
 }
 
+.internal__header ul li {
+    margin: 0;
+}
+
 .boxHader .container {
 	display: flex;
 	align-items: center;
@@ -1124,7 +1128,9 @@ a.bootom:hover {
 }
 
 .boxFotter tr td:first-child {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 10px !important;
 	margin: 0 13px 0 0 !important;
 	box-sizing: border-box;
@@ -1239,8 +1245,14 @@ a.bootom:hover {
 	font-size: 18px;
 }
 
-.BoxSingleLeft p {
+.BoxSingleLeft p, .BoxSingleLeft li {
 	font-size: 16px !important;
+}
+
+.BoxSingleLeft ol, .BoxSingleLeft ul {
+    list-style: disc;
+    list-style-image: inherit;
+    padding-left: 1.5rem;
 }
 
 .BoxSingleLeft h2 {
@@ -1367,7 +1379,7 @@ a.bootom:hover {
 
 .rdsfinal ul li:nth-child(2) a span:after,
 .rdsfinal ul li:nth-child(2) a span:before {
-	content: "\f16a";
+	content: "\e07b";
 }
 
 .rdsfinal ul li:nth-child(3) a span:after,
@@ -1651,6 +1663,7 @@ h1.pagetitle.resetSpace::after {
 
 .imgBlog.BlogImgBlog img {
 	width: 100%;
+	height: 21rem;
 }
 
 .imgBlog.BlogImgBlog a {
@@ -1724,13 +1737,14 @@ h1.pagetitle.resetSpace::after {
 
 .conBlogCat .imgBlog a {
 	display: block;
-	height: 20rem;
-	object-fit: cover;
+	height: 100%;
+	max-height: 22rem;
 }
 
 .imgBlog img {
 	display: block;
-	height: 20rem;
+	height: 100%;
+	width: 100%;
 	object-fit: cover;
 }
 
@@ -1802,6 +1816,8 @@ a.readBlog:hover {
 
 .conBlogCat .imgBlog {
 	flex-basis: 50%;
+	/* flex-grow: 1; */
+	/* flex-shrink: 1; */
 }
 
 .conBlogCat .txtBlog {
@@ -1994,6 +2010,10 @@ ul.textTours li {
 
 ul.textTours {
 	padding: 0;
+}
+
+ul.textTours li {
+    list-style-type: none;
 }
 
 ul.textTours li a {
@@ -2420,7 +2440,7 @@ a.callphone img {
 .Formulario-Paginas input {
 	width: 100%;
 	box-sizing: border-box;
-	padding: 10px !important;
+	padding: 12px 10px !important;
 	margin: 5px 0;
 	border: 1px solid #ccc !important;
 	color: #485050 !important;
@@ -2566,8 +2586,8 @@ a.callphone img {
 	background: #1da1f2;
 }
 
-.Redes-Iconos .fa-youtube-play:hover {
-	background: red;
+.Redes-Iconos .fa-tiktok:hover {
+	background: purple;
 }
 
 .Redes-Iconos .fa-instagram:hover {
@@ -2762,11 +2782,15 @@ span.wpcf7-not-valid-tip {
 	letter-spacing: 1px;
 }
 
-.content p {
+.content p, .content li {
 	text-align: justify;
 	color: #212727;
 	font-weight: 300;
 	line-height: 1.4rem;
+	padding: 0;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	list-style-type: auto;
 }
 
 .BoxPresentacion1 .owl-theme .owl-dots .owl-dot.active span,
@@ -3121,8 +3145,8 @@ div#TA_selfserveprop713 > div {
 
 @media (max-width: 768px) {
 	.navigation {
-		display: flex;
-		justify-content: center;
+		padding: 0 1rem;
+		/* margin: 0 auto; */
 	}
 	.boxGaleText {
 		padding: 8px;

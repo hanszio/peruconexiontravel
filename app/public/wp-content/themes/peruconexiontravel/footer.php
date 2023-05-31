@@ -6,10 +6,10 @@
                 <img src="<?php bloginfo('template_directory'); ?>/images/peru-conexion-travel-vertical-tag-blanco.svg" alt="">
                 <div class="rdsfinal">
                     <ul>
-                        <li><a href="https://www.facebook.com/Per%C3%BA-Conexi%C3%B3n-Travel-Agency-113918340360103" target="_blank"><span></span></a></li>
-                        <li><a href="https://www.youtube.com" target="_blank"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=51986268583&text=&source=&data=" target="_blank"><span></span></a></li>
+                        <li><a href="https://www.facebook.com/peruconexiontravel" target="_blank"><span></span></a></li>
+                        <li><a href="ttps://www.tiktok.com/@peruconexiontravelagency" target="_blank"><span></span></a></li>
+                        <li><a href="https://www.instagram.com/peruconexion/"><span></span></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=51914248899&text=&source=&data=" target="_blank"><span></span></a></li>
                         <li><a href="https://www.peruconexiontravel.com/wp-admin" target="_blank"><span></span></a></li>
                     </ul>
                 </div>

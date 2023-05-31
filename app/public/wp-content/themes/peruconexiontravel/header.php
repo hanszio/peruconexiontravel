@@ -7,10 +7,10 @@
   <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
   <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/js/carousel/owl.carousel.css" />
   <?php wp_head(); ?>
   <meta name="facebook-domain-verification" content="l1gylwyln75vyrywhew891cwkz32hg" />
+  <script src="https://kit.fontawesome.com/53324dfb27.js" crossorigin="anonymous"></script>
   <!-- Meta Pixel Code -->
   <script>
     ! function(f, b, e, v, n, t, s) {

@@ -19,14 +19,14 @@ endif; ?>
 <div class="container blog__post">
     <div class="BoxSingle">
         <div class="BoxSingleLeft">
+            <div class="BoxDescripcionSingle">
+                <h1><?php the_title(); ?></h1>
+                <?php the_field('descripcion'); ?>
+            </div>
             <div class="boxGale">
                 <div class="boxGaleImg">
                     <?php include(TEMPLATEPATH . "/galeria.php"); ?>
                 </div>
-            </div>
-            <div class="BoxDescripcionSingle">
-                <h1><?php the_title(); ?></h1>
-                <?php the_field('descripcion'); ?>
             </div>
             <article>
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

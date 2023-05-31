@@ -15,7 +15,6 @@ endif; ?>
   $DDias = " Días";
   $DNoches = " Noches";
 endif; ?>
-
 <section class="content categoria clear">
   <?php if (have_posts()) : ?>
     <div class="imgTitleCat reset">
@@ -38,7 +37,6 @@ endif; ?>
       <?php /* Si se trata de un archivo de paginado */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
         <h1 class="pagetitle">Archivos del Blog</h1><?php } ?>
     </div>
-
     <div class="contentItemsCat container">
       <div class="descripCat"><?php echo category_description(); ?></div>
       <?php if (is_category(array(18))) { ?>
@@ -79,7 +77,7 @@ endif; ?>
                                                                                                                                                                             the_time('d');
                                                                                                                                                                             echo ", ";
                                                                                                                                                                             the_time('Y'); ?></span></p>
-                <p><?php echo excerpt(18); ?></p>
+                <p><?php echo excerpt(25); ?></p>
                 <a class="readBlog" href="<?php the_permalink(); ?>"><?php echo $blog; ?></a>
               </div>
             </div>
