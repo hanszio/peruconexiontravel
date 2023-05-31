@@ -8,7 +8,6 @@ endif; ?>
         $readmore = "Read Article";
         $tblog = "Featured Tours";
 endif; ?>
-
 <div class="blogRight">
         <?php query_posts('cat=' . $cat . '&posts_per_page=3'); ?>
         <h3 class="menu-blog"><?php echo $tblog; ?></h3>
@@ -22,7 +21,6 @@ endif; ?>
                         <div class="textBlogAside">
                                 <?php if (get_field("titulo")) { ?><h3><a href="<?php the_permalink() ?>"><?php the_field('titulo'); ?></a></h3><?php } else { ?> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3><?php } ?>
                                 <p><?php echo excerpt(25); ?></p>
-
                         </div>
                 </div>
         <?php endwhile;
