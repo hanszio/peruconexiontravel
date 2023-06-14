@@ -300,7 +300,7 @@ header {
 
 .boxHader {
 	padding: 7px 0;
-	/* position: sticky; */
+	position: sticky;
 	top: 0;
 	background-color: #fff;
 	z-index: 10;
