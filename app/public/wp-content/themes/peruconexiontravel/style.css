@@ -3116,9 +3116,7 @@ a.botSin:hover {
 	visibility: hidden;
 }
 
-/* .bannerTop > div .stx-main-container {
-	height: 100dvh !important;
-} */
+
 div#TA_selfserveprop713 {
 	margin-top: 25px;
 }
@@ -3270,6 +3268,10 @@ div#TA_selfserveprop713 > div {
 }
 
 @media (max-width: 480px) {
+	.bannerTop > div .stx-main-container {
+	height: 100dvh !important;
+	}
+	
 	.orange a {
 		color: #fff !important;
 		border: none;
@@ -3343,7 +3345,7 @@ div#TA_selfserveprop713 > div {
 		transform: scale(1);
 		right: 0;
 		left: 0;
-		top: -15%;
+		top: -13%;
 		bottom: 0;
 	}
 
