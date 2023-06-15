@@ -470,7 +470,7 @@ $chosed_platform_slug = $this->plugin_slugs[ $force_platform ];
 $current_platform_slug = $this->plugin_slugs[ $this->shortname ];
 $file_path = preg_replace('/[^\/\\\\]+([\\\\\/]trustindex-plugin\.class\.php)/', $chosed_platform_slug . '$1', $file_path);
 }
-$chosed_platform = new self($force_platform, $file_path, "do-not-care-10.0.1", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
+$chosed_platform = new self($force_platform, $file_path, "do-not-care-10.1", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
 if(!$chosed_platform->is_noreg_linked())
 {
 return $this->error_box_for_admins(self::___('You have to connect your business (%s)!', [$force_platform]));
@@ -2615,11 +2615,11 @@ private static $widget_rating_texts = array (
  ),
  'ar' => 
  array (
- 0 => 'فيعض',
- 1 => 'طسوتملا تحت',
- 2 => 'طسوتم',
- 3 => 'ديج',
- 4 => 'زاتمم',
+ 0 => 'ضعيف',
+ 1 => 'مقبول',
+ 2 => 'متوسط',
+ 3 => 'جيد جدا',
+ 4 => 'ممتاز',
  ),
  'cs' => 
  array (
@@ -3005,8 +3005,8 @@ private static $widget_recommendation_texts = array (
  ),
  'ar' => 
  array (
- 'negative' => 'لا توصي NOT_RECOMMEND_ICON',
- 'positive' => 'توصي RECOMMEND_ICON',
+ 'negative' => 'NOT_RECOMMEND_ICON لا توصي',
+ 'positive' => 'RECOMMEND_ICON توصي',
  ),
  'cs' => 
  array (
@@ -4120,7 +4120,7 @@ public static $widget_date_format_locales = array (
  'fr' => 'il y a %d %s|aujourd\'hui|jour|jours|semaine|semaines|mois|mois|année|ans',
  'de' => 'vor %d %s|heute|tag|tagen|woche|wochen|monat|monaten|jahr|jahren',
  'es' => 'hace %d %s|hoy|día|días|semana|semanas|mes|meses|año|años',
- 'ar' => '%d %s مضى|اليوم|يوم|أيام|أسبوع|أسابيع|شهر|شهور|سنة|سنوات',
+ 'ar' => '%d %s مضى|اليوم|يوم|أيام|أسبوع|أسابيع|شهر|أشهر|سنة|سنوات',
  'cs' => 'před %d %s|dnes|dnem|dny|týdnem|týdny|měsícem|měsíci|rokem|roky',
  'da' => '%d %s siden|i dag|dag|dage|uge|uger|måned|måneder|år|år',
  'et' => '%d %s tagasi|täna|päev|päeva|nädal|nädalat|kuu|kuud|aasta|aastat',
@@ -4693,10 +4693,11 @@ $array['content'] = str_replace([
 "RATING_SCORE",
 "RATING_SCALE",
 "RATING_TEXT",
+"Rating_Text",
 "PLATFORM_URL_LOGO",
 "PLATFORM_NAME",
 '<span class="ti-star e"></span><span class="ti-star e"></span><span class="ti-star e"></span><span class="ti-star e"></span><span class="ti-star e"></span>',
-'PLATFORM_SMALL_LOGO'
+'PLATFORM_SMALL_LOGO',
  ], [
 ucfirst($this->getShortName()),
 $array['page_details']['name'],
@@ -4704,6 +4705,7 @@ $rating_count,
 $rating_score,
 $this->is_ten_scale_rating_platform() ? 10 : 5,
 $this->get_rating_text($rating_score, $array['language']),
+ucfirst(strtolower($this->get_rating_text($rating_score, $array['language']))),
 $array['page_details']['avatar_url'],
 $this->get_platform_name($this->getShortName(), $array['page_details']['id']),
 $this->is_ten_scale_rating_platform() ? "<div class='ti-rating-box'>". $this->formatTenRating($rating_score, $array['language']) ."</div>" : $this->get_rating_stars($rating_score),

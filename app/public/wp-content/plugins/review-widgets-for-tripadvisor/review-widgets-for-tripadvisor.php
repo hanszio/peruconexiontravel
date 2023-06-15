@@ -9,7 +9,7 @@ Author: Trustindex.io <support@trustindex.io>
 Author URI: https://www.trustindex.io/
 Contributors: trustindex
 License: GPLv2 or later
-Version: 10.0.1
+Version: 10.1
 Text Domain: review-widgets-for-tripadvisor
 Domain Path: /languages/
 Donate link: https://www.trustindex.io/prices/
@@ -19,7 +19,7 @@ Copyright 2019 Trustindex Kft (email: support@trustindex.io)
 */
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 require_once plugin_dir_path( __FILE__ ) . 'trustindex-plugin.class.php';
-$trustindex_pm_tripadvisor = new TrustindexPlugin_tripadvisor("tripadvisor", __FILE__, "10.0.1", "WP Tripadvisor Review Widgets", "Tripadvisor");
+$trustindex_pm_tripadvisor = new TrustindexPlugin_tripadvisor("tripadvisor", __FILE__, "10.1", "WP Tripadvisor Review Widgets", "Tripadvisor");
 register_activation_hook(__FILE__, array($trustindex_pm_tripadvisor, 'activate'));
 register_deactivation_hook(__FILE__, array($trustindex_pm_tripadvisor, 'deactivate'));
 add_action('admin_menu', array($trustindex_pm_tripadvisor, 'add_setting_menu'), 10);
@@ -37,7 +37,7 @@ global $trustindex_pm_tripadvisor;
 if(!isset($trustindex_pm_tripadvisor) || is_null($trustindex_pm_tripadvisor))
 {
 require_once plugin_dir_path( __FILE__ ) . 'trustindex-plugin.class.php';
-$trustindex_pm_tripadvisor = new TrustindexPlugin_tripadvisor("tripadvisor", __FILE__, "10.0.1", "WP Tripadvisor Review Widgets", "Tripadvisor");
+$trustindex_pm_tripadvisor = new TrustindexPlugin_tripadvisor("tripadvisor", __FILE__, "10.1", "WP Tripadvisor Review Widgets", "Tripadvisor");
 }
 $path = wp_upload_dir()['baseurl'] .'/'. $trustindex_pm_tripadvisor->getCssFile(true);
 if(is_ssl())

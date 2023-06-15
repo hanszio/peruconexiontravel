@@ -34,7 +34,7 @@ exit;
 }
 $yes_icon = '<span class="dashicons dashicons-yes-alt"></span>';
 $no_icon = '<span class="dashicons dashicons-dismiss"></span>';
-$plugin_updated = ($trustindex_pm_tripadvisor->get_plugin_current_version() <= "10.0.1");
+$plugin_updated = ($trustindex_pm_tripadvisor->get_plugin_current_version() <= "10.1");
 $css_inline = get_option($trustindex_pm_tripadvisor->get_option_name('load-css-inline'), 0);
 $css = get_option($trustindex_pm_tripadvisor->get_option_name('css-content'));
 ?>

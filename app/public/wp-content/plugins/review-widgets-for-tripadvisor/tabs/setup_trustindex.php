@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 <ul class="ti-check">
 <li><?php echo TrustindexPlugin_tripadvisor::___('Display unlimited number of reviews'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Create unlimited number of widgets'); ?></li>
-<li><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 181 ]); ?></li>
+<li><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 66 ]); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Mix reviews from different platforms'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Get more reviews'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Manage all reviews in one place'); ?></li>

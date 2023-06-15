@@ -122,7 +122,7 @@ update_option($trustindex_pm_tripadvisor->get_option_name('review-download-token
 <input type="hidden" id="ti-noreg-connect-token" name="ti-noreg-connect-token" value="<?php echo $review_download_token; ?>" />
 <input type="hidden" id="ti-noreg-webhook-url" value="<?php echo $trustindex_pm_tripadvisor->get_webhook_url(); ?>" />
 <input type="hidden" id="ti-noreg-email" value="<?php echo get_option('admin_email'); ?>" />
-<input type="hidden" id="ti-noreg-version" value="10.0.1" />
+<input type="hidden" id="ti-noreg-version" value="10.1" />
 <input type="hidden" id="ti-noreg-review-download" name="review_download" value="0" />
 <input type="hidden" id="ti-noreg-review-request-id" name="review_request_id" value="" />
 <input type="hidden" id="ti-noreg-manual-download" name="manual_download" value=0 />
@@ -496,7 +496,7 @@ break;
 <?php echo TrustindexPlugin_tripadvisor::___("Use the widgets matching your page the best to build trust."); ?>
 </li>
 <li>
-<strong><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 181 ]); ?></strong><br />
+<strong><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 66 ]); ?></strong><br />
 <?php echo TrustindexPlugin_tripadvisor::___("Add more reviews to your widget from %s, etc. to enjoy more trust, and to keep customers on your site.", [ 'Google, Facebook, Yelp, Amazon, Tripadvisor, Booking.com, Airbnb, Hotels.com, Capterra, Foursquare, Opentable' ]); ?><br />
 <img src="<?php echo $trustindex_pm_tripadvisor->get_plugin_file_url('static/img/platforms.png'); ?>" alt="" style="margin-top: 5px" />
 </li>
