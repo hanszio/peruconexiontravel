@@ -13,37 +13,30 @@
 </div>
 <?php
 $demo_list = [
-36 => 'drop-shadow',
-15 => 'light-background-large',
-39 => 'ligth-border-3d-large',
 5 => 'light-minimal',
+36 => 'drop-shadow',
 34 => 'ligth-border',
 13 => 'dark-background',
-19 => 'light-square',
-37 => 'drop-shadow-large',
-44 => 'dark-contrast',
+15 => 'drop-shadow',
+37 => 'ligth-border',
 33 => 'light-minimal',
 16 => 'drop-shadow-large',
-38 => 'dark-background',
 31 => 'soft',
+54 => 'light-background-large',
 6 => 'light-background-large',
-7 => 'light-minimal',
 8 => 'light-background-large',
-9 => 'ligth-border-3d-large',
-24 => 'light-background',
-25 => 'light-background-large',
-26 => 'ligth-border',
 27 => 'ligth-border-3d-large',
-28 => 'drop-shadow',
+26 => 'ligth-border',
 29 => 'drop-shadow',
-35 => 'light-contrast',
 30 => 'dark-background',
-32 => 'dark-border',
+60 => 'light-background-large',
+25 => 'light-background-large',
+32 => 'dark-background',
 22 => 'light-background-large',
 23 => 'ligth-border',
+55 => 'light-minimal',
 11 => 'drop-shadow-large',
-12 => 'light-minimal',
-55 => 'light-minimal'
+12 => 'light-minimal'
 ];
 foreach($demo_list as $layout => $style): ?>
 <?php

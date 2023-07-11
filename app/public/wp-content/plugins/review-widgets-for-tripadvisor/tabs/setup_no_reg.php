@@ -122,7 +122,7 @@ update_option($trustindex_pm_tripadvisor->get_option_name('review-download-token
 <input type="hidden" id="ti-noreg-connect-token" name="ti-noreg-connect-token" value="<?php echo $review_download_token; ?>" />
 <input type="hidden" id="ti-noreg-webhook-url" value="<?php echo $trustindex_pm_tripadvisor->get_webhook_url(); ?>" />
 <input type="hidden" id="ti-noreg-email" value="<?php echo get_option('admin_email'); ?>" />
-<input type="hidden" id="ti-noreg-version" value="10.1" />
+<input type="hidden" id="ti-noreg-version" value="10.3" />
 <input type="hidden" id="ti-noreg-review-download" name="review_download" value="0" />
 <input type="hidden" id="ti-noreg-review-request-id" name="review_request_id" value="" />
 <input type="hidden" id="ti-noreg-manual-download" name="manual_download" value=0 />
@@ -176,7 +176,7 @@ update_option($trustindex_pm_tripadvisor->get_option_name('review-download-token
 <?php foreach(TrustindexPlugin_tripadvisor::$widget_templates['templates'] as $id => $template): ?>
 <?php
 $class_name = 'ti-full-width';
-if($id != 54 && in_array($template['type'], [ 'badge', 'button', 'floating', 'popup', 'sidebar' ]))
+if(in_array($template['type'], [ 'badge', 'button', 'floating', 'popup', 'sidebar' ]))
 {
 $class_name = 'ti-half-width';
 }
@@ -185,6 +185,7 @@ if(in_array($template['type'], [ 'badge', 'button' ]))
 {
 $set = 'drop-shadow';
 }
+if(!isset($template['is-active']) || $template['is-active']):
 ?>
 <div class="<?php echo esc_attr($class_name); ?>">
 <div class="ti-box ti-preview-boxes" data-layout-id="<?php echo esc_attr($id); ?>" data-set-id="<?php echo $set; ?>">
@@ -201,6 +202,7 @@ $set = 'drop-shadow';
 </div>
 </div>
 </div>
+<?php endif; ?>
 <?php endforeach; ?>
 </div>
 <?php elseif($current_step == 3 || !$scss_set): ?>
@@ -224,6 +226,7 @@ $class_name = 'ti-half-width';
 ?>
 <div class="ti-preview-boxes-container">
 <?php foreach(TrustindexPlugin_tripadvisor::$widget_styles as $id => $style): ?>
+<?php if(!isset($style['is-active']) || $style['is-active']): ?>
 <div class="<?php echo esc_attr($class_name); ?>">
 <div class="ti-box ti-preview-boxes" data-layout-id="<?php echo esc_attr($style_id); ?>" data-set-id="<?php echo esc_attr($id); ?>">
 <div class="ti-box-header">
@@ -239,6 +242,7 @@ $class_name = 'ti-half-width';
 </div>
 </div>
 </div>
+<?php endif; ?>
 <?php endforeach; ?>
 </div>
 <?php elseif($current_step == 4 || !$widget_setted_up): ?>

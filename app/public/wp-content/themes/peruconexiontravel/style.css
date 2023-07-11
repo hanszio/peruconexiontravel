@@ -3267,6 +3267,13 @@ div#TA_selfserveprop713 > div {
 }
 
 @media (max-width: 480px) {
+	.bannerimg {
+    display: none;
+	}
+
+	#dp-slider {
+    height: 23rem;
+	}
 	.bannerTop > div .stx-main-container {
 	height: 100dvh !important;
 	}
@@ -3346,6 +3353,7 @@ div#TA_selfserveprop713 > div {
 		left: 0;
 		top: -13%;
 		bottom: 0;
+		position: inherit;
 	}
 
 	#dp-prev {

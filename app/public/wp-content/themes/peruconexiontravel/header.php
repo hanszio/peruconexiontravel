@@ -59,8 +59,13 @@
         </div>
       </div>
     </header>
-    <?php if (is_page(2) == true) { ?><div class="banner">
-        <div class="bannerTop"><?php echo do_shortcode('[transitionslider id="1"]'); ?></div>
+    <?php if (is_page(2) == true) { ?>
+      <div class="banner">
+        <?php if (wp_is_mobile() == true) { ?>
+          <div class="bannerTop"><?php echo do_shortcode('[transitionslider id="2"]'); ?></div>
+        <?php } else { ?>
+          <div class="bannerTop"><?php echo do_shortcode('[transitionslider id="1"]'); ?></div>
+        <?php } ?>
         <div class="bannerimg">
           <?php
           $images = get_field('iconos_reconocimiento');
@@ -71,4 +76,5 @@
           <?php endif; ?>
         </div>
         <?php include(TEMPLATEPATH . "/carrousel.php"); ?>
-      </div><?php } ?>
+      </div>
+    <?php } ?>

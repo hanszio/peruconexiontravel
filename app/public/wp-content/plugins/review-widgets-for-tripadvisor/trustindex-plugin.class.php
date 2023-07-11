@@ -470,7 +470,7 @@ $chosed_platform_slug = $this->plugin_slugs[ $force_platform ];
 $current_platform_slug = $this->plugin_slugs[ $this->shortname ];
 $file_path = preg_replace('/[^\/\\\\]+([\\\\\/]trustindex-plugin\.class\.php)/', $chosed_platform_slug . '$1', $file_path);
 }
-$chosed_platform = new self($force_platform, $file_path, "do-not-care-10.1", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
+$chosed_platform = new self($force_platform, $file_path, "do-not-care-10.3", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
 if(!$chosed_platform->is_noreg_linked())
 {
 return $this->error_box_for_admins(self::___('You have to connect your business (%s)!', [$force_platform]));
@@ -645,8 +645,8 @@ return;
 }
 require_once(ABSPATH . 'wp-admin' . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'file.php');
 global $wp_filesystem;
-set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, array $err_context) {
-throw new ErrorException( $err_msg, 0, $err_severity, $err_file, $err_line );
+set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, $err_context = []) {
+throw new ErrorException($err_msg, 0, $err_severity, $err_file, $err_line);
 }, E_WARNING);
 add_filter('filesystem_method', array($this, 'filter_filesystem_method'));
 WP_Filesystem();
@@ -722,237 +722,314 @@ public static $widget_templates = array (
  array (
  'name' => 'Slider I.',
  'type' => 'slider',
+ 'is-active' => true,
  ),
- 36 => 
+ 45 => 
  array (
- 'name' => 'Slider I. - centered',
+ 'name' => 'Slider I. - Big picture',
  'type' => 'slider',
+ 'is-active' => false,
  ),
- 15 => 
+ 46 => 
+ array (
+ 'name' => 'Slider II. - Big picture',
+ 'type' => 'slider',
+ 'is-active' => false,
+ ),
+ 47 => 
+ array (
+ 'name' => 'Slider III. - Big picture',
+ 'type' => 'slider',
+ 'is-active' => false,
+ ),
+ 48 => 
+ array (
+ 'name' => 'Grid I. - Big picture',
+ 'type' => 'grid',
+ 'is-active' => false,
+ ),
+ 5 => 
  array (
  'name' => 'Slider II.',
  'type' => 'slider',
+ 'is-active' => true,
+ ),
+ 36 => 
+ array (
+ 'name' => 'Slider III.',
+ 'type' => 'slider',
+ 'is-active' => true,
+ ),
+ 34 => 
+ array (
+ 'name' => 'Slider IV.',
+ 'type' => 'slider',
+ 'is-active' => true,
  ),
  39 => 
  array (
  'name' => 'Slider II. - centered',
  'type' => 'slider',
- ),
- 5 => 
- array (
- 'name' => 'Slider III. - with badge',
- 'type' => 'slider',
- ),
- 34 => 
- array (
- 'name' => 'Slider III. - with badge II.',
- 'type' => 'slider',
+ 'is-active' => false,
  ),
  13 => 
  array (
- 'name' => 'Slider III. - with company header',
+ 'name' => 'Slider V.',
  'type' => 'slider',
+ 'is-active' => true,
+ ),
+ 15 => 
+ array (
+ 'name' => 'Slider VI.',
+ 'type' => 'slider',
+ 'is-active' => true,
  ),
  19 => 
  array (
  'name' => 'Slider IV.',
  'type' => 'slider',
+ 'is-active' => false,
  ),
  37 => 
  array (
- 'name' => 'Slider V.',
+ 'name' => 'Slider VII.',
  'type' => 'slider',
+ 'is-active' => true,
  ),
  44 => 
  array (
  'name' => 'Slider VI.',
  'type' => 'slider',
+ 'is-active' => false,
+ ),
+ 20 => 
+ array (
+ 'name' => 'HTML badge III.',
+ 'type' => 'badge',
+ 'is-active' => false,
  ),
  33 => 
  array (
  'name' => 'List I.',
  'type' => 'list',
+ 'is-active' => true,
  ),
  16 => 
  array (
  'name' => 'Grid',
  'type' => 'grid',
- ),
- 38 => 
- array (
- 'name' => 'Grid II.',
- 'type' => 'grid',
+ 'is-active' => true,
  ),
  31 => 
  array (
  'name' => 'Mansonry grid',
  'type' => 'grid',
+ 'is-active' => true,
  ),
- 6 => 
+ 38 => 
+ array (
+ 'name' => 'Grid II.',
+ 'type' => 'grid',
+ 'is-active' => false,
+ ),
+ 54 => 
  array (
  'name' => 'Sidebar slider I.',
  'type' => 'sidebar',
+ 'is-active' => true,
+ ),
+ 6 => 
+ array (
+ 'name' => 'Sidebar slider II.',
+ 'type' => 'sidebar',
+ 'is-active' => true,
  ),
  7 => 
  array (
  'name' => 'Sidebar slider II.',
  'type' => 'sidebar',
- ),
- 54 => 
- array (
- 'name' => 'Sidebar slider III.',
- 'type' => 'sidebar',
- ),
- 8 => 
- array (
- 'name' => 'Full sidebar I.',
- 'type' => 'sidebar',
+ 'is-active' => false,
  ),
  18 => 
  array (
- 'name' => 'Full sidebar I. - without header',
+ 'name' => 'Full sidebar I.',
  'type' => 'sidebar',
+ 'is-active' => true,
+ ),
+ 8 => 
+ array (
+ 'name' => 'Full sidebar II.',
+ 'type' => 'sidebar',
+ 'is-active' => true,
  ),
  9 => 
  array (
  'name' => 'Full sidebar II.',
  'type' => 'sidebar',
+ 'is-active' => false,
  ),
  10 => 
  array (
  'name' => 'Full sidebar III.',
  'type' => 'sidebar',
+ 'is-active' => false,
  ),
  24 => 
  array (
  'name' => 'Button I.',
  'type' => 'button',
- ),
- 25 => 
- array (
- 'name' => 'Button II.',
- 'type' => 'button',
- ),
- 26 => 
- array (
- 'name' => 'Button III.',
- 'type' => 'button',
+ 'is-active' => false,
  ),
  27 => 
  array (
- 'name' => 'Button IV.',
+ 'name' => 'Button I.',
  'type' => 'button',
+ 'is-active' => true,
+ ),
+ 26 => 
+ array (
+ 'name' => 'Button II.',
+ 'type' => 'button',
+ 'is-active' => true,
+ ),
+ 29 => 
+ array (
+ 'name' => 'Button III.',
+ 'type' => 'button',
+ 'is-active' => true,
+ ),
+ 30 => 
+ array (
+ 'name' => 'Button IV. - with dropdown',
+ 'type' => 'button',
+ 'is-active' => true,
  ),
  28 => 
  array (
  'name' => 'Button V.',
  'type' => 'button',
+ 'is-active' => false,
  ),
- 29 => 
+ 60 => 
+ array (
+ 'name' => 'Button V.',
+ 'type' => 'button',
+ 'is-active' => true,
+ ),
+ 25 => 
  array (
  'name' => 'Button VI.',
  'type' => 'button',
+ 'is-active' => true,
+ ),
+ 32 => 
+ array (
+ 'name' => 'Button VII. - with dropdown',
+ 'type' => 'button',
+ 'is-active' => true,
  ),
  35 => 
  array (
  'name' => 'Button VII.',
  'type' => 'button',
- ),
- 30 => 
- array (
- 'name' => 'Button VII. - with dropdown',
- 'type' => 'button',
- ),
- 32 => 
- array (
- 'name' => 'Button VII. - with popup',
- 'type' => 'button',
+ 'is-active' => false,
  ),
  59 => 
  array (
  'name' => 'Button VIII.',
  'type' => 'button',
- ),
- 60 => 
- array (
- 'name' => 'Button IX.',
- 'type' => 'button',
+ 'is-active' => false,
  ),
  61 => 
  array (
  'name' => 'Button X.',
  'type' => 'button',
+ 'is-active' => false,
  ),
  62 => 
  array (
  'name' => 'Button XI.',
  'type' => 'button',
- ),
- 22 => 
- array (
- 'name' => 'Company badge I.',
- 'type' => 'badge',
- ),
- 23 => 
- array (
- 'name' => 'Company badge I. - with popup',
- 'type' => 'badge',
- ),
- 11 => 
- array (
- 'name' => 'HTML badge I.',
- 'type' => 'badge',
- ),
- 12 => 
- array (
- 'name' => 'HTML badge II.',
- 'type' => 'badge',
+ 'is-active' => false,
  ),
  55 => 
  array (
+ 'name' => 'HTML badge I.',
+ 'type' => 'badge',
+ 'is-active' => true,
+ ),
+ 11 => 
+ array (
+ 'name' => 'HTML badge II.',
+ 'type' => 'badge',
+ 'is-active' => true,
+ ),
+ 12 => 
+ array (
  'name' => 'HTML badge III.',
  'type' => 'badge',
+ 'is-active' => true,
  ),
  56 => 
  array (
  'name' => 'HTML badge IV.',
  'type' => 'badge',
+ 'is-active' => true,
+ ),
+ 22 => 
+ array (
+ 'name' => 'Company badge I.',
+ 'type' => 'badge',
+ 'is-active' => true,
+ ),
+ 23 => 
+ array (
+ 'name' => 'Company badge I. - with popup',
+ 'type' => 'badge',
+ 'is-active' => true,
  ),
  57 => 
  array (
  'name' => 'HTML badge V.',
  'type' => 'badge',
+ 'is-active' => false,
  ),
  58 => 
  array (
  'name' => 'HTML badge VI.',
  'type' => 'badge',
+ 'is-active' => false,
  ),
  17 => 
  array (
- 'name' => 'Floating',
+ 'name' => 'Floating I.',
  'type' => 'floating',
- ),
- 21 => 
- array (
- 'name' => 'Floating II.',
- 'type' => 'floating',
- ),
- 52 => 
- array (
- 'name' => 'Floating III.',
- 'type' => 'floating',
+ 'is-active' => true,
  ),
  53 => 
  array (
+ 'name' => 'Floating II.',
+ 'type' => 'floating',
+ 'is-active' => true,
+ ),
+ 21 => 
+ array (
+ 'name' => 'Floating III.',
+ 'type' => 'floating',
+ 'is-active' => true,
+ ),
+ 52 => 
+ array (
  'name' => 'Floating IV.',
  'type' => 'floating',
+ 'is-active' => true,
  ),
  ),
 );
 public static $widget_styles = array (
  'light-background' => 
  array (
+ 'is-active' => true,
  'id' => 'light-background',
  'name' => 'Light background',
  'position' => 0,
@@ -1016,12 +1093,13 @@ public static $widget_styles = array (
  ),
  'light-background-large' => 
  array (
+ 'is-active' => true,
  'id' => 'light-background-large',
  'name' => 'Light background - large',
  'position' => 0,
  'select-position' => 0,
  'reviewer-photo' => true,
- 'verified-icon' => false,
+ 'verified-icon' => true,
  'hide-logos' => false,
  'hide-stars' => false,
  '_vars' => 
@@ -1079,6 +1157,7 @@ public static $widget_styles = array (
  ),
  'ligth-border' => 
  array (
+ 'is-active' => true,
  'id' => 'ligth-border',
  'name' => 'Light border',
  'position' => 0,
@@ -1142,11 +1221,12 @@ public static $widget_styles = array (
  ),
  'ligth-border-3d-large' => 
  array (
+ 'is-active' => true,
  'id' => 'ligth-border-3d-large',
  'name' => 'Light border - 3D - large',
  'position' => 0,
  'select-position' => 1,
- 'reviewer-photo' => false,
+ 'reviewer-photo' => true,
  'verified-icon' => true,
  'hide-logos' => false,
  'hide-stars' => false,
@@ -1205,14 +1285,15 @@ public static $widget_styles = array (
  ),
  'ligth-border-large' => 
  array (
+ 'is-active' => true,
  'id' => 'ligth-border-large',
  'name' => 'Light border - large',
  'position' => 0,
  'select-position' => 1,
  'reviewer-photo' => true,
  'verified-icon' => true,
- 'hide-logos' => true,
- 'hide-stars' => true,
+ 'hide-logos' => false,
+ 'hide-stars' => false,
  '_vars' => 
  array (
  'style_id' => '"light-border-large"',
@@ -1268,6 +1349,7 @@ public static $widget_styles = array (
  ),
  'ligth-border-large-red' => 
  array (
+ 'is-active' => false,
  'id' => 'ligth-border-large-red',
  'name' => 'Light border - large - red',
  'position' => 0,
@@ -1331,6 +1413,7 @@ public static $widget_styles = array (
  ),
  'drop-shadow' => 
  array (
+ 'is-active' => true,
  'id' => 'drop-shadow',
  'name' => 'Drop shadow',
  'position' => 0,
@@ -1394,6 +1477,7 @@ public static $widget_styles = array (
  ),
  'drop-shadow-large' => 
  array (
+ 'is-active' => true,
  'id' => 'drop-shadow-large',
  'name' => 'Drop shadow - large',
  'position' => 0,
@@ -1457,6 +1541,7 @@ public static $widget_styles = array (
  ),
  'light-minimal' => 
  array (
+ 'is-active' => true,
  'id' => 'light-minimal',
  'name' => 'Minimal',
  'position' => 0,
@@ -1520,12 +1605,13 @@ public static $widget_styles = array (
  ),
  'light-minimal-large' => 
  array (
+ 'is-active' => true,
  'id' => 'light-minimal-large',
  'name' => 'Minimal - large',
  'position' => 0,
  'select-position' => 3,
- 'reviewer-photo' => false,
- 'verified-icon' => false,
+ 'reviewer-photo' => true,
+ 'verified-icon' => true,
  'hide-logos' => false,
  'hide-stars' => false,
  '_vars' => 
@@ -1583,6 +1669,7 @@ public static $widget_styles = array (
  ),
  'soft' => 
  array (
+ 'is-active' => true,
  'id' => 'soft',
  'name' => 'Soft',
  'position' => 1,
@@ -1646,6 +1733,7 @@ public static $widget_styles = array (
  ),
  'light-clean' => 
  array (
+ 'is-active' => true,
  'id' => 'light-clean',
  'name' => 'Light clean',
  'position' => 0,
@@ -1709,8 +1797,9 @@ public static $widget_styles = array (
  ),
  'light-square' => 
  array (
+ 'is-active' => true,
  'id' => 'light-square',
- 'name' => 'Clean dark',
+ 'name' => 'Light square',
  'position' => 0,
  'select-position' => 6,
  'reviewer-photo' => true,
@@ -1772,6 +1861,7 @@ public static $widget_styles = array (
  ),
  'light-background-border' => 
  array (
+ 'is-active' => false,
  'id' => 'light-background-border',
  'name' => 'Light background border',
  'position' => 0,
@@ -1835,6 +1925,7 @@ public static $widget_styles = array (
  ),
  'blue' => 
  array (
+ 'is-active' => false,
  'id' => 'blue',
  'name' => 'Blue',
  'position' => 0,
@@ -1898,12 +1989,13 @@ public static $widget_styles = array (
  ),
  'light-background-large-purple' => 
  array (
+ 'is-active' => false,
  'id' => 'light-background-large-purple',
  'name' => 'Light background - large - purple',
  'position' => 0,
  'select-position' => 9,
  'reviewer-photo' => true,
- 'verified-icon' => false,
+ 'verified-icon' => true,
  'hide-logos' => false,
  'hide-stars' => false,
  '_vars' => 
@@ -1961,6 +2053,7 @@ public static $widget_styles = array (
  ),
  'light-background-image' => 
  array (
+ 'is-active' => true,
  'id' => 'light-background-image',
  'name' => 'Light background image',
  'position' => 0,
@@ -2024,6 +2117,7 @@ public static $widget_styles = array (
  ),
  'light-contrast' => 
  array (
+ 'is-active' => true,
  'id' => 'light-contrast',
  'name' => 'Light contrast',
  'position' => 0,
@@ -2087,14 +2181,15 @@ public static $widget_styles = array (
  ),
  'light-contrast-large' => 
  array (
+ 'is-active' => false,
  'id' => 'light-contrast-large',
  'name' => 'Light contrast - large',
  'position' => 0,
  'select-position' => 10,
- 'reviewer-photo' => false,
- 'verified-icon' => false,
- 'hide-logos' => true,
- 'hide-stars' => true,
+ 'reviewer-photo' => true,
+ 'verified-icon' => true,
+ 'hide-logos' => false,
+ 'hide-stars' => false,
  '_vars' => 
  array (
  'style_id' => '"light-contrast-large"',
@@ -2150,12 +2245,13 @@ public static $widget_styles = array (
  ),
  'light-contrast-large-blue' => 
  array (
+ 'is-active' => false,
  'id' => 'light-contrast-large-blue',
  'name' => 'Light contrast - large - blue',
  'position' => 0,
  'select-position' => 10,
  'reviewer-photo' => true,
- 'verified-icon' => false,
+ 'verified-icon' => true,
  'hide-logos' => false,
  'hide-stars' => false,
  '_vars' => 
@@ -2213,6 +2309,7 @@ public static $widget_styles = array (
  ),
  'dark-background' => 
  array (
+ 'is-active' => true,
  'id' => 'dark-background',
  'name' => 'Dark background',
  'position' => 1,
@@ -2276,6 +2373,7 @@ public static $widget_styles = array (
  ),
  'dark-minimal' => 
  array (
+ 'is-active' => true,
  'id' => 'dark-minimal',
  'name' => 'Minimal dark',
  'position' => 0,
@@ -2339,6 +2437,7 @@ public static $widget_styles = array (
  ),
  'dark-border' => 
  array (
+ 'is-active' => false,
  'id' => 'dark-border',
  'name' => 'Dark border',
  'position' => 1,
@@ -2402,6 +2501,7 @@ public static $widget_styles = array (
  ),
  'dark-contrast' => 
  array (
+ 'is-active' => false,
  'id' => 'dark-contrast',
  'name' => 'Dark contrast',
  'position' => 1,
@@ -2465,6 +2565,7 @@ public static $widget_styles = array (
  ),
  'dark-background-image' => 
  array (
+ 'is-active' => true,
  'id' => 'dark-background-image',
  'name' => 'Dark background image',
  'position' => 0,
@@ -4686,6 +4787,12 @@ $rating_sum += (float)$review->rating;
 $c = count($array['reviews']);
 $rating_score = $c ? $rating_sum / $c : 0;
 }
+$rating_text = $this->get_rating_text($rating_score, $array['language']);
+$rating_text_ucfirst = ucfirst(strtolower($rating_text));
+if(function_exists('mb_strtolower'))
+{
+$rating_text_ucfirst = $rating_text[0] . mb_strtolower(substr($rating_text, 1, 200));
+}
 $array['content'] = str_replace([
 '%platform%',
 '%site_name%',
@@ -4704,8 +4811,8 @@ $array['page_details']['name'],
 $rating_count,
 $rating_score,
 $this->is_ten_scale_rating_platform() ? 10 : 5,
-$this->get_rating_text($rating_score, $array['language']),
-ucfirst(strtolower($this->get_rating_text($rating_score, $array['language']))),
+$rating_text,
+$rating_text_ucfirst,
 $array['page_details']['avatar_url'],
 $this->get_platform_name($this->getShortName(), $array['page_details']['id']),
 $this->is_ten_scale_rating_platform() ? "<div class='ti-rating-box'>". $this->formatTenRating($rating_score, $array['language']) ."</div>" : $this->get_rating_stars($rating_score),
