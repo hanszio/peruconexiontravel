@@ -1,0 +1,209 @@
+# Translation of Plugins - Transition Slider &#8211; Responsive Image Slider and Gallery - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Transition Slider &#8211; Responsive Image Slider and Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-08 17:43:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Transition Slider &#8211; Responsive Image Slider and Gallery - Stable (latest release)\n"
+
+#: includes/main.php:240
+msgid "<a href=\"%s\" style=\"color:#04c018;font-weight:bold;\" target=\"_blank\">Go Pro</a>"
+msgstr "<a href=\"%s\" style=\"color:#04c018;font-weight:bold;\" target=\"_blank\">Hazte Pro</a>"
+
+#: includes/getting-started.php:17
+msgid "Don't show again"
+msgstr "No volver a mostrar"
+
+#: includes/getting-started.php:20
+msgid "Go to Dashboard"
+msgstr "Ir al escritorio"
+
+#: includes/getting-started.php:9
+msgid "Welcome to Transition Slider"
+msgstr "Bienvenido a Transition Slider"
+
+#: includes/getting-started.php:11
+msgid "Watch the video tutorial for easy start"
+msgstr "Mira el vídeo tutorial para un comienzo fácil"
+
+#: includes/edit-slider.php:338
+msgid "BACK"
+msgstr "VOLVER"
+
+#: includes/edit-slider.php:39
+msgid "DELETE"
+msgstr "BORRAR"
+
+#: includes/edit-slider.php:324
+msgid "NEXT"
+msgstr "SIGUIENTE"
+
+#: includes/edit-slider.php:319
+msgid "PREVIOUS"
+msgstr "ANTERIOR"
+
+#: includes/edit-slider.php:69 includes/edit-slider.php:89
+msgid "Slides"
+msgstr "Diapositivas"
+
+#: includes/main.php:108 includes/main.php:109
+msgid "Go Pro"
+msgstr "Hazte Pro"
+
+#: includes/edit-slider.php:79 includes/edit-slider.php:189
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: includes/edit-slider.php:75 includes/edit-slider.php:207
+msgid "Video"
+msgstr "Vídeo"
+
+#: includes/edit-slider.php:82 includes/edit-slider.php:225
+msgid "Lightbox"
+msgstr "Caja de luz"
+
+#: includes/edit-slider.php:73 includes/edit-slider.php:135
+msgid "Layer"
+msgstr "Capa"
+
+#: includes/sliders.php:141
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/sliders.php:54
+msgid "EXPORT"
+msgstr "EXPORTAR"
+
+#: includes/sliders.php:56 includes/sliders.php:131
+msgid "IMPORT"
+msgstr "IMPORTAR"
+
+#: includes/sliders.php:113
+msgid "Import Sliders"
+msgstr "Importar carruseles"
+
+#: includes/sliders.php:75
+msgid "Newest first"
+msgstr "Más reciente primero"
+
+#: includes/sliders.php:76
+msgid "Oldest first"
+msgstr "Más antiguo primero"
+
+#: includes/sliders.php:70
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: includes/sliders.php:59
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/sliders.php:64
+msgid "Select all"
+msgstr "Seleccionar todos"
+
+#: includes/sliders.php:65
+msgid "Select none"
+msgstr "No seleccionar ninguno"
+
+#: includes/sliders.php:92
+msgid "SLIDER TEMPLATES"
+msgstr "PLANTILLAS DE CARRUSEL"
+
+#: includes/sliders.php:148
+msgid "Slider Templates"
+msgstr "Plantillas de carrusel"
+
+#: includes/sliders.php:120
+msgid "To import Sliders copy and paste sliders config below:"
+msgstr "Para importar carruseles copia y pega la configuración de los carruseles a continuación:"
+
+#: includes/main.php:99 includes/main.php:100
+msgid "Add new Slider"
+msgstr "Añadir nuevo carrusel"
+
+#: includes/edit-slider.php:74 includes/edit-slider.php:153
+msgid "Autoplay"
+msgstr "Reproducción automática"
+
+#. Author of the plugin
+msgid "creativeinteractivemedia"
+msgstr "creativeinteractivemedia"
+
+#: includes/edit-slider.php:12 includes/edit-slider.php:289
+#: includes/sliders.php:20 includes/sliders.php:48
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: includes/edit-slider.php:71 includes/edit-slider.php:107
+msgid "General"
+msgstr "General"
+
+#. Plugin URI of the plugin
+msgid "https://codecanyon.net/item/transition-slider-wordpress-plugin/23531533"
+msgstr "https://codecanyon.net/item/transition-slider-wordpress-plugin/23531533"
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/creativeinteractivemedia"
+msgstr "https://codecanyon.net/user/creativeinteractivemedia"
+
+#: includes/edit-slider.php:81 includes/edit-slider.php:216
+msgid "Loading"
+msgstr "Cargando"
+
+#: includes/main.php:66
+msgid "Loading..."
+msgstr "Cargando…"
+
+#: includes/edit-slider.php:76 includes/edit-slider.php:162
+msgid "Navigation"
+msgstr "Navegación"
+
+#: includes/sliders.php:86
+msgid "NEW SLIDER"
+msgstr "NUEVO CARRUSEL"
+
+#: includes/edit-slider.php:78 includes/edit-slider.php:180
+msgid "Pagination"
+msgstr "Paginación"
+
+#: includes/edit-slider.php:33 includes/edit-slider.php:333
+msgid "PREVIEW"
+msgstr "VISTA PREVIA"
+
+#: includes/edit-slider.php:70 includes/edit-slider.php:98
+msgid "Publish"
+msgstr "Publicar"
+
+#: includes/edit-slider.php:29 includes/edit-slider.php:329
+msgid "SAVE"
+msgstr "GUARDAR"
+
+#: includes/edit-slider.php:72 includes/edit-slider.php:117
+msgid "Size"
+msgstr "Tamaño"
+
+#: includes/edit-slider.php:23 includes/edit-slider.php:313
+msgid "Slider saved"
+msgstr "Carrusel guardado"
+
+#: includes/main.php:90 includes/main.php:91
+msgid "Sliders"
+msgstr "Carruseles"
+
+#: includes/main.php:80 includes/main.php:81
+msgid "Transition Slider"
+msgstr "Transition Slider"
+
+#. Plugin Name of the plugin
+msgid "Transition Slider Lite"
+msgstr "Transition Slider Lite"
+
+#. Description of the plugin
+msgid "Responsive HTML5 WebGL Slider with beautiful seamless transitions and animated layers. Supports images and videos."
+msgstr "Carrusel HTML5 WebGL adaptable con fantásticas transiciones sin cortes y capas animadas. Soporta imágenes y vídeos."

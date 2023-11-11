@@ -1,0 +1,870 @@
+[2023-11-07 17:46:39.845458] [INFO] Starting migration loop - With allotted time: 26.976079940796 seconds
+[2023-11-07 17:46:39.846446] [INFO] Initating with remote and local host with remaining time:26.975080966949
+[2023-11-07 17:46:39.847451] [DEBUG] Calling initate service for destination: local
+[2023-11-07 17:46:39.875060] [DEBUG] Got initiate token: bddd19fe4fdf62187ad89d15dd2229da3b78e2cfdef529aefe8eea65cebf4e74
+[2023-11-07 17:46:39.875288] [DEBUG] Calling initate service for destination: remote
+[2023-11-07 17:46:41.251687] [DEBUG] Got initiate token: 28ee89c3c3cde156df2bb2b6cc1f3a21ba8031401c65ce6e290cc842b3a35e48
+[2023-11-07 17:46:41.251936] [INFO] Initation completed on: 1.4058809280396 seconds
+[2023-11-07 17:46:41.253255] [INFO] Ending migration loop - with remaining time: 25.568269014359
+[2023-11-07 17:46:41.270174] [INFO] Starting migration loop - With allotted time: 26.988751888275 seconds
+[2023-11-07 17:46:41.270418] [INFO] Getting masterdata from source and target with remaining time:26.988502979279
+[2023-11-07 17:46:41.270798] [DEBUG] Calling masterdata service on: https://peruconexiontravel.com/ with intent to user as 'source'
+[2023-11-07 17:46:42.845043] [DEBUG] Calling masterdata service on: http://localhost:8888/peruconexiontravel/ with intent to user as 'target'
+[2023-11-07 17:46:42.920566] [INFO] Completed masterdata on: 1.6501460075378 seconds
+[2023-11-07 17:46:42.926950] [INFO] Ending migration loop - with remaining time: 25.331977844238
+[2023-11-07 17:46:42.949594] [INFO] Starting migration loop - With allotted time: 26.981145143509 seconds
+[2023-11-07 17:46:42.957250] [INFO] Ending migration loop - with remaining time: 26.973488092422
+[2023-11-07 17:46:42.979618] [INFO] Starting migration loop - With allotted time: 26.981065034866 seconds
+[2023-11-07 17:46:42.979865] [INFO] Starting database migration loop with remaining time: 26.980810880661
+[2023-11-07 17:46:43.399314] [INFO] New table is started: pcta_commentmeta and setting new max response size: 125000
+[2023-11-07 17:46:43.399556] [DEBUG] Getting data from remote DB with data: {"table":"pcta_commentmeta","last_primary_key":0,"primary_key_column":"meta_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":1250,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","comment_id":"comment_id"},"time_limit":13.280567526817322}
+[2023-11-07 17:46:44.778990] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 462
+[2023-11-07 17:46:44.779160] [DEBUG] Got rows: 3
+[2023-11-07 17:46:44.779761] [INFO] Marking table: pcta_commentmeta as completed
+[2023-11-07 17:46:44.780977] [DEBUG] Inserted 3 rows into target database
+[2023-11-07 17:46:44.781091] [DEBUG] Lastrun in : 1.3815898895264 seconds - response size throttle: 131250 and remaining time: 25.179583072662
+[2023-11-07 17:46:44.781367] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 3 / 9,831
+[2023-11-07 17:46:44.788440] [INFO] New table is started: pcta_comments and setting new max response size: 125000
+[2023-11-07 17:46:44.788613] [DEBUG] Getting data from remote DB with data: {"table":"pcta_comments","last_primary_key":0,"primary_key_column":"comment_ID","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":294,"column_names":{"comment_author":"comment_author","comment_author_email":"comment_author_email","comment_author_url":"comment_author_url","comment_author_IP":"comment_author_IP","comment_date":"comment_date","comment_date_gmt":"comment_date_gmt","comment_content":"comment_content","comment_approved":"comment_approved","comment_agent":"comment_agent","comment_type":"comment_type","comment_ID":"comment_ID","comment_post_ID":"comment_post_ID","comment_karma":"comment_karma","comment_parent":"comment_parent","user_id":"user_id"},"time_limit":12.586037993431091}
+[2023-11-07 17:46:45.712080] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1822
+[2023-11-07 17:46:45.712266] [DEBUG] Got rows: 8
+[2023-11-07 17:46:45.712832] [INFO] Marking table: pcta_comments as completed
+[2023-11-07 17:46:45.715580] [DEBUG] Inserted 8 rows into target database
+[2023-11-07 17:46:45.717143] [DEBUG] Lastrun in : 0.92854785919189 seconds - response size throttle: 131250 and remaining time: 24.243531942368
+[2023-11-07 17:46:45.717458] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 11 / 9,831
+[2023-11-07 17:46:45.724855] [INFO] New table is started: pcta_fbv and setting new max response size: 125000
+[2023-11-07 17:46:45.725042] [DEBUG] Getting data from remote DB with data: {"table":"pcta_fbv","last_primary_key":0,"primary_key_column":"id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":15,"column_names":{"name":"name","id":"id","parent":"parent","type":"type","ord":"ord","created_by":"created_by"},"time_limit":12.117821455001831}
+[2023-11-07 17:46:48.132396] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 318
+[2023-11-07 17:46:48.132601] [DEBUG] Got rows: 1
+[2023-11-07 17:46:48.203537] [INFO] Marking table: pcta_fbv as completed
+[2023-11-07 17:46:48.205287] [DEBUG] Inserted 1 rows into target database
+[2023-11-07 17:46:48.205514] [DEBUG] Lastrun in : 2.480477809906 seconds - response size throttle: 131250 and remaining time: 21.75516295433
+[2023-11-07 17:46:48.206054] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 12 / 9,831
+[2023-11-07 17:46:48.214506] [INFO] New table is started: pcta_fbv_attachment_folder and setting new max response size: 125000
+[2023-11-07 17:46:48.214674] [DEBUG] Getting data from remote DB with data: {"table":"pcta_fbv_attachment_folder","last_primary_key":0,"primary_key_column":"","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":38,"column_names":{"folder_id":"folder_id","attachment_id":"attachment_id"},"time_limit":10.87300455570221}
+[2023-11-07 17:46:49.073132] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 334
+[2023-11-07 17:46:49.073368] [DEBUG] Got rows: 5
+[2023-11-07 17:46:49.073858] [INFO] Marking table: pcta_fbv_attachment_folder as completed
+[2023-11-07 17:46:49.075588] [DEBUG] Inserted 5 rows into target database
+[2023-11-07 17:46:49.075719] [DEBUG] Lastrun in : 0.86105799674988 seconds - response size throttle: 131250 and remaining time: 20.884954929352
+[2023-11-07 17:46:49.076020] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 17 / 9,831
+[2023-11-07 17:46:49.088400] [INFO] New table is started: pcta_masterslider_options and setting new max response size: 125000
+[2023-11-07 17:46:49.088565] [DEBUG] Getting data from remote DB with data: {"table":"pcta_masterslider_options","last_primary_key":0,"primary_key_column":"ID","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":7,"column_names":{"option_name":"option_name","option_value":"option_value","ID":"ID"},"time_limit":10.436059474945068}
+[2023-11-07 17:46:49.943583] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 14062
+[2023-11-07 17:46:49.943763] [DEBUG] Got rows: 6
+[2023-11-07 17:46:49.944231] [INFO] Marking table: pcta_masterslider_options as completed
+[2023-11-07 17:46:49.949101] [DEBUG] Inserted 6 rows into target database
+[2023-11-07 17:46:49.949277] [DEBUG] Lastrun in : 0.86072301864624 seconds - response size throttle: 131250 and remaining time: 20.011398077011
+[2023-11-07 17:46:49.949692] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 23 / 9,831
+[2023-11-07 17:46:49.957053] [INFO] New table is started: pcta_masterslider_sliders and setting new max response size: 125000
+[2023-11-07 17:46:49.957270] [DEBUG] Getting data from remote DB with data: {"table":"pcta_masterslider_sliders","last_primary_key":0,"primary_key_column":"ID","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":31,"column_names":{"title":"title","alias":"alias","type":"type","date_created":"date_created","date_modified":"date_modified","params":"params","custom_styles":"custom_styles","custom_fonts":"custom_fonts","status":"status","ID":"ID","slides_num":"slides_num"},"time_limit":10.001709461212158}
+[2023-11-07 17:46:51.312383] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1726
+[2023-11-07 17:46:51.312688] [DEBUG] Got rows: 1
+[2023-11-07 17:46:51.313184] [INFO] Marking table: pcta_masterslider_sliders as completed
+[2023-11-07 17:46:51.315307] [DEBUG] Inserted 1 rows into target database
+[2023-11-07 17:46:51.317389] [DEBUG] Lastrun in : 1.3601288795471 seconds - response size throttle: 131250 and remaining time: 18.643290996552
+[2023-11-07 17:46:51.317597] [INFO] Database progress update: Data: 0.0MB / 4.8MB - Rows: 24 / 9,831
+[2023-11-07 17:46:51.335956] [INFO] New table is started: pcta_options and setting new max response size: 125000
+[2023-11-07 17:46:51.336260] [DEBUG] Getting data from remote DB with data: {"table":"pcta_options","last_primary_key":0,"primary_key_column":"option_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":45,"column_names":{"option_name":"option_name","option_value":"option_value","autoload":"autoload","option_id":"option_id"},"time_limit":9.312216997146606}
+[2023-11-07 17:46:52.230613] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 42574
+[2023-11-07 17:46:52.230796] [DEBUG] Got rows: 228
+[2023-11-07 17:46:52.323086] [DEBUG] Inserted 228 rows into target database
+[2023-11-07 17:46:52.323310] [DEBUG] Lastrun in : 0.98708200454712 seconds - response size throttle: 131250 and remaining time: 17.637365102768
+[2023-11-07 17:46:52.323782] [INFO] Database progress update: Data: 0.1MB / 4.8MB - Rows: 252 / 9,831
+[2023-11-07 17:46:52.331173] [DEBUG] Getting data from remote DB with data: {"table":"pcta_options","last_primary_key":"9951","primary_key_column":"option_id","completed_rows":228,"max_response_size":131250,"type":"pull","default_rows_per_request":45,"column_names":{"option_name":"option_name","option_value":"option_value","autoload":"autoload","option_id":"option_id"},"time_limit":8.814756512641907}
+[2023-11-07 17:46:53.381079] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 62670
+[2023-11-07 17:46:53.381253] [DEBUG] Got rows: 93
+[2023-11-07 17:46:53.577236] [DEBUG] Inserted 93 rows into target database
+[2023-11-07 17:46:53.577481] [DEBUG] Lastrun in : 1.2463209629059 seconds - response size throttle: 137813 and remaining time: 16.383193969727
+[2023-11-07 17:46:53.578051] [INFO] Database progress update: Data: 0.1MB / 4.8MB - Rows: 345 / 9,831
+[2023-11-07 17:46:53.585134] [DEBUG] Getting data from remote DB with data: {"table":"pcta_options","last_primary_key":"43540","primary_key_column":"option_id","completed_rows":321,"max_response_size":137813,"type":"pull","default_rows_per_request":45,"column_names":{"option_name":"option_name","option_value":"option_value","autoload":"autoload","option_id":"option_id"},"time_limit":8.187775492668152}
+[2023-11-07 17:46:54.479289] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 32174
+[2023-11-07 17:46:54.479467] [DEBUG] Got rows: 52
+[2023-11-07 17:46:54.527477] [DEBUG] Inserted 52 rows into target database
+[2023-11-07 17:46:54.527662] [DEBUG] Lastrun in : 0.94253921508789 seconds - response size throttle: 144704 and remaining time: 15.433012008667
+[2023-11-07 17:46:54.528162] [INFO] Database progress update: Data: 0.2MB / 4.8MB - Rows: 397 / 9,831
+[2023-11-07 17:46:54.535334] [DEBUG] Getting data from remote DB with data: {"table":"pcta_options","last_primary_key":"43987","primary_key_column":"option_id","completed_rows":373,"max_response_size":144704,"type":"pull","default_rows_per_request":45,"column_names":{"option_name":"option_name","option_value":"option_value","autoload":"autoload","option_id":"option_id"},"time_limit":7.712675452232361}
+[2023-11-07 17:46:55.408948] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 638
+[2023-11-07 17:46:55.409150] [DEBUG] Got rows: 8
+[2023-11-07 17:46:55.409707] [INFO] Marking table: pcta_options as completed
+[2023-11-07 17:46:55.411154] [DEBUG] Inserted 8 rows into target database
+[2023-11-07 17:46:55.414050] [DEBUG] Lastrun in : 0.87872695922852 seconds - response size throttle: 151940 and remaining time: 14.546624898911
+[2023-11-07 17:46:55.414204] [INFO] Database progress update: Data: 0.2MB / 4.8MB - Rows: 405 / 9,831
+[2023-11-07 17:46:55.421182] [INFO] New table is started: pcta_postmeta and setting new max response size: 125000
+[2023-11-07 17:46:55.421308] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":0,"primary_key_column":"meta_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":7.269687056541443}
+[2023-11-07 17:46:56.836979] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 35470
+[2023-11-07 17:46:56.837137] [DEBUG] Got rows: 1336
+[2023-11-07 17:46:56.921574] [DEBUG] Inserted 1336 rows into target database
+[2023-11-07 17:46:56.921960] [DEBUG] Lastrun in : 1.5006608963013 seconds - response size throttle: 131250 and remaining time: 13.038714885712
+[2023-11-07 17:46:56.922388] [INFO] Database progress update: Data: 0.8MB / 4.8MB - Rows: 1,741 / 9,831
+[2023-11-07 17:46:56.929991] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"1774","primary_key_column":"meta_id","completed_rows":1336,"max_response_size":131250,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":6.515348553657532}
+[2023-11-07 17:46:57.883650] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 22734
+[2023-11-07 17:46:57.883916] [DEBUG] Got rows: 650
+[2023-11-07 17:46:58.001750] [DEBUG] Inserted 650 rows into target database
+[2023-11-07 17:46:58.002031] [DEBUG] Lastrun in : 1.0720548629761 seconds - response size throttle: 137813 and remaining time: 11.958643913269
+[2023-11-07 17:46:58.135452] [INFO] Database progress update: Data: 1.2MB / 4.8MB - Rows: 2,391 / 9,831
+[2023-11-07 17:46:58.144249] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"2521","primary_key_column":"meta_id","completed_rows":1986,"max_response_size":137813,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":5.908221483230591}
+[2023-11-07 17:46:59.020529] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 26766
+[2023-11-07 17:46:59.020692] [DEBUG] Got rows: 1145
+[2023-11-07 17:46:59.195698] [DEBUG] Inserted 1145 rows into target database
+[2023-11-07 17:46:59.196075] [DEBUG] Lastrun in : 1.0518529415131 seconds - response size throttle: 144704 and remaining time: 10.764599084854
+[2023-11-07 17:46:59.196355] [INFO] Database progress update: Data: 1.7MB / 4.8MB - Rows: 3,536 / 9,831
+[2023-11-07 17:46:59.203751] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"4073","primary_key_column":"meta_id","completed_rows":3131,"max_response_size":144704,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":5.378466963768005}
+[2023-11-07 17:47:00.122966] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 26158
+[2023-11-07 17:47:00.123185] [DEBUG] Got rows: 926
+[2023-11-07 17:47:00.289076] [DEBUG] Inserted 926 rows into target database
+[2023-11-07 17:47:00.289412] [DEBUG] Lastrun in : 1.0856711864471 seconds - response size throttle: 151940 and remaining time: 9.6712629795074
+[2023-11-07 17:47:00.289951] [INFO] Database progress update: Data: 2.2MB / 4.8MB - Rows: 4,462 / 9,831
+[2023-11-07 17:47:00.299081] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"5556","primary_key_column":"meta_id","completed_rows":4057,"max_response_size":151940,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":4.8308035135269165}
+[2023-11-07 17:47:01.857047] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 28206
+[2023-11-07 17:47:01.857206] [DEBUG] Got rows: 865
+[2023-11-07 17:47:02.034577] [DEBUG] Inserted 865 rows into target database
+[2023-11-07 17:47:02.035108] [DEBUG] Lastrun in : 1.7360320091248 seconds - response size throttle: 159537 and remaining time: 7.9255700111389
+[2023-11-07 17:47:02.035355] [INFO] Database progress update: Data: 2.6MB / 4.8MB - Rows: 5,327 / 9,831
+[2023-11-07 17:47:02.043305] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"6641","primary_key_column":"meta_id","completed_rows":4922,"max_response_size":159537,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":3.9586914777755737}
+[2023-11-07 17:47:03.233609] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 42766
+[2023-11-07 17:47:03.233785] [DEBUG] Got rows: 1634
+[2023-11-07 17:47:03.526569] [DEBUG] Inserted 1634 rows into target database
+[2023-11-07 17:47:03.527065] [DEBUG] Lastrun in : 1.483776807785 seconds - response size throttle: 167514 and remaining time: 6.4336099624634
+[2023-11-07 17:47:03.563137] [INFO] Database progress update: Data: 3.4MB / 4.8MB - Rows: 6,961 / 9,831
+[2023-11-07 17:47:03.570685] [DEBUG] Getting data from remote DB with data: {"table":"pcta_postmeta","last_primary_key":"8565","primary_key_column":"meta_id","completed_rows":6556,"max_response_size":167514,"type":"pull","default_rows_per_request":844,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","post_id":"post_id"},"time_limit":3.19500195980072}
+[2023-11-07 17:47:04.447443] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 7998
+[2023-11-07 17:47:04.447629] [DEBUG] Got rows: 281
+[2023-11-07 17:47:04.448221] [INFO] Marking table: pcta_postmeta as completed
+[2023-11-07 17:47:04.498924] [DEBUG] Inserted 281 rows into target database
+[2023-11-07 17:47:04.499142] [DEBUG] Lastrun in : 0.92847585678101 seconds - response size throttle: 175890 and remaining time: 5.4615318775177
+[2023-11-07 17:47:04.499716] [INFO] Database progress update: Data: 3.5MB / 4.8MB - Rows: 7,242 / 9,831
+[2023-11-07 17:47:04.506920] [INFO] New table is started: pcta_posts and setting new max response size: 125000
+[2023-11-07 17:47:04.507041] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":0,"primary_key_column":"ID","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":2.7268224954605103}
+[2023-11-07 17:47:05.387677] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 32158
+[2023-11-07 17:47:05.387979] [DEBUG] Got rows: 64
+[2023-11-07 17:47:05.421825] [DEBUG] Inserted 64 rows into target database
+[2023-11-07 17:47:05.422025] [DEBUG] Lastrun in : 0.91499805450439 seconds - response size throttle: 131250 and remaining time: 4.5386490821838
+[2023-11-07 17:47:05.422708] [INFO] Database progress update: Data: 3.6MB / 4.8MB - Rows: 7,306 / 9,831
+[2023-11-07 17:47:05.430186] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"96","primary_key_column":"ID","completed_rows":64,"max_response_size":131250,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":2.265252947807312}
+[2023-11-07 17:47:06.293483] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 27822
+[2023-11-07 17:47:06.293658] [DEBUG] Got rows: 46
+[2023-11-07 17:47:06.319974] [DEBUG] Inserted 46 rows into target database
+[2023-11-07 17:47:06.320172] [DEBUG] Lastrun in : 0.8900101184845 seconds - response size throttle: 137813 and remaining time: 3.6405019760132
+[2023-11-07 17:47:06.320744] [INFO] Database progress update: Data: 3.6MB / 4.8MB - Rows: 7,352 / 9,831
+[2023-11-07 17:47:06.327840] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"144","primary_key_column":"ID","completed_rows":110,"max_response_size":137813,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":1.8164235353469849}
+[2023-11-07 17:47:07.732955] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 35022
+[2023-11-07 17:47:07.733113] [DEBUG] Got rows: 116
+[2023-11-07 17:47:07.773213] [DEBUG] Inserted 116 rows into target database
+[2023-11-07 17:47:07.773446] [DEBUG] Lastrun in : 1.4456210136414 seconds - response size throttle: 144704 and remaining time: 2.1872279644012
+[2023-11-07 17:47:07.773997] [INFO] Database progress update: Data: 3.6MB / 4.8MB - Rows: 7,468 / 9,831
+[2023-11-07 17:47:07.782006] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"264","primary_key_column":"ID","completed_rows":226,"max_response_size":144704,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":1.089356541633606}
+[2023-11-07 17:47:08.843434] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 36798
+[2023-11-07 17:47:08.843597] [DEBUG] Got rows: 131
+[2023-11-07 17:47:08.887068] [DEBUG] Inserted 131 rows into target database
+[2023-11-07 17:47:08.887304] [DEBUG] Lastrun in : 1.1053760051727 seconds - response size throttle: 151940 and remaining time: 1.0733699798584
+[2023-11-07 17:47:08.887836] [INFO] Database progress update: Data: 3.7MB / 4.8MB - Rows: 7,599 / 9,831
+[2023-11-07 17:47:08.895014] [INFO] Ending database migration loop with remaining time: 1.0656759738922 seconds
+[2023-11-07 17:47:08.903083] [INFO] Ending migration loop - with remaining time: 1.0575969219208
+[2023-11-07 17:47:08.924853] [INFO] Starting migration loop - With allotted time: 26.981597185135 seconds
+[2023-11-07 17:47:08.925009] [INFO] Starting database migration loop with remaining time: 26.981435060501
+[2023-11-07 17:47:08.925763] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"411","primary_key_column":"ID","completed_rows":357,"max_response_size":151940,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":13.490354061126709}
+[2023-11-07 17:47:10.304050] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 27694
+[2023-11-07 17:47:10.304206] [DEBUG] Got rows: 72
+[2023-11-07 17:47:10.340602] [DEBUG] Inserted 72 rows into target database
+[2023-11-07 17:47:10.340809] [DEBUG] Lastrun in : 1.415088891983 seconds - response size throttle: 159537 and remaining time: 25.565634012222
+[2023-11-07 17:47:10.341376] [INFO] Database progress update: Data: 3.8MB / 4.8MB - Rows: 7,671 / 9,831
+[2023-11-07 17:47:10.348995] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"503","primary_key_column":"ID","completed_rows":429,"max_response_size":159537,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":12.778733015060425}
+[2023-11-07 17:47:11.322401] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 18862
+[2023-11-07 17:47:11.322570] [DEBUG] Got rows: 31
+[2023-11-07 17:47:11.352089] [DEBUG] Inserted 31 rows into target database
+[2023-11-07 17:47:11.352276] [DEBUG] Lastrun in : 1.0033040046692 seconds - response size throttle: 167514 and remaining time: 24.554167985916
+[2023-11-07 17:47:11.352867] [INFO] Database progress update: Data: 3.8MB / 4.8MB - Rows: 7,702 / 9,831
+[2023-11-07 17:47:11.360210] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"541","primary_key_column":"ID","completed_rows":460,"max_response_size":167514,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":12.273123025894165}
+[2023-11-07 17:47:12.406939] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 38302
+[2023-11-07 17:47:12.407097] [DEBUG] Got rows: 91
+[2023-11-07 17:47:12.446772] [DEBUG] Inserted 91 rows into target database
+[2023-11-07 17:47:12.447062] [DEBUG] Lastrun in : 1.0868601799011 seconds - response size throttle: 175890 and remaining time: 23.45938205719
+[2023-11-07 17:47:12.447547] [INFO] Database progress update: Data: 3.8MB / 4.8MB - Rows: 7,793 / 9,831
+[2023-11-07 17:47:12.454959] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"653","primary_key_column":"ID","completed_rows":551,"max_response_size":175890,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":11.725749492645264}
+[2023-11-07 17:47:13.866470] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 38174
+[2023-11-07 17:47:13.866659] [DEBUG] Got rows: 130
+[2023-11-07 17:47:13.915184] [DEBUG] Inserted 130 rows into target database
+[2023-11-07 17:47:13.915432] [DEBUG] Lastrun in : 1.460489988327 seconds - response size throttle: 184685 and remaining time: 21.991011142731
+[2023-11-07 17:47:13.915964] [INFO] Database progress update: Data: 3.9MB / 4.8MB - Rows: 7,923 / 9,831
+[2023-11-07 17:47:13.923199] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"835","primary_key_column":"ID","completed_rows":681,"max_response_size":184685,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":10.991628527641296}
+[2023-11-07 17:47:14.959859] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 38286
+[2023-11-07 17:47:14.960017] [DEBUG] Got rows: 65
+[2023-11-07 17:47:14.998941] [DEBUG] Inserted 65 rows into target database
+[2023-11-07 17:47:14.999256] [DEBUG] Lastrun in : 1.0760660171509 seconds - response size throttle: 193920 and remaining time: 20.907188177109
+[2023-11-07 17:47:14.999724] [INFO] Database progress update: Data: 3.9MB / 4.8MB - Rows: 7,988 / 9,831
+[2023-11-07 17:47:15.006977] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"913","primary_key_column":"ID","completed_rows":746,"max_response_size":193920,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":10.449740529060364}
+[2023-11-07 17:47:15.887790] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 31342
+[2023-11-07 17:47:15.887961] [DEBUG] Got rows: 92
+[2023-11-07 17:47:15.932389] [DEBUG] Inserted 92 rows into target database
+[2023-11-07 17:47:15.932863] [DEBUG] Lastrun in : 0.9258770942688 seconds - response size throttle: 203616 and remaining time: 19.973587036133
+[2023-11-07 17:47:15.933276] [INFO] Database progress update: Data: 4.0MB / 4.8MB - Rows: 8,080 / 9,831
+[2023-11-07 17:47:15.940557] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"1020","primary_key_column":"ID","completed_rows":838,"max_response_size":203616,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":9.982950091362}
+[2023-11-07 17:47:16.994205] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 35118
+[2023-11-07 17:47:16.994387] [DEBUG] Got rows: 98
+[2023-11-07 17:47:17.042255] [DEBUG] Inserted 98 rows into target database
+[2023-11-07 17:47:17.042476] [DEBUG] Lastrun in : 1.1019368171692 seconds - response size throttle: 213797 and remaining time: 18.863967180252
+[2023-11-07 17:47:17.043004] [INFO] Database progress update: Data: 4.0MB / 4.8MB - Rows: 8,178 / 9,831
+[2023-11-07 17:47:17.050427] [DEBUG] Getting data from remote DB with data: {"table":"pcta_posts","last_primary_key":"1147","primary_key_column":"ID","completed_rows":936,"max_response_size":213797,"type":"pull","default_rows_per_request":64,"column_names":{"post_date":"post_date","post_date_gmt":"post_date_gmt","post_content":"post_content","post_title":"post_title","post_excerpt":"post_excerpt","post_status":"post_status","comment_status":"comment_status","ping_status":"ping_status","post_password":"post_password","post_name":"post_name","to_ping":"to_ping","pinged":"pinged","post_modified":"post_modified","post_modified_gmt":"post_modified_gmt","post_content_filtered":"post_content_filtered","guid":"guid","post_type":"post_type","post_mime_type":"post_mime_type","ID":"ID","post_author":"post_author","post_parent":"post_parent","menu_order":"menu_order","comment_count":"comment_count"},"time_limit":9.428016543388367}
+[2023-11-07 17:47:18.106359] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 42142
+[2023-11-07 17:47:18.106513] [DEBUG] Got rows: 79
+[2023-11-07 17:47:18.107036] [INFO] Marking table: pcta_posts as completed
+[2023-11-07 17:47:18.148487] [DEBUG] Inserted 79 rows into target database
+[2023-11-07 17:47:18.148875] [DEBUG] Lastrun in : 1.0984580516815 seconds - response size throttle: 224487 and remaining time: 17.757572174072
+[2023-11-07 17:47:18.149309] [INFO] Database progress update: Data: 4.0MB / 4.8MB - Rows: 8,257 / 9,831
+[2023-11-07 17:47:18.156861] [INFO] New table is started: pcta_term_relationships and setting new max response size: 125000
+[2023-11-07 17:47:18.157029] [DEBUG] Getting data from remote DB with data: {"table":"pcta_term_relationships","last_primary_key":0,"primary_key_column":"","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":5952,"column_names":{"object_id":"object_id","term_taxonomy_id":"term_taxonomy_id","term_order":"term_order"},"time_limit":8.874711513519287}
+[2023-11-07 17:47:19.011277] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 4670
+[2023-11-07 17:47:19.011457] [DEBUG] Got rows: 687
+[2023-11-07 17:47:19.011934] [INFO] Marking table: pcta_term_relationships as completed
+[2023-11-07 17:47:19.025706] [DEBUG] Inserted 687 rows into target database
+[2023-11-07 17:47:19.025998] [DEBUG] Lastrun in : 0.86897706985474 seconds - response size throttle: 131250 and remaining time: 16.880445957184
+[2023-11-07 17:47:19.026411] [INFO] Database progress update: Data: 4.4MB / 4.8MB - Rows: 8,944 / 9,831
+[2023-11-07 17:47:19.041745] [INFO] New table is started: pcta_term_taxonomy and setting new max response size: 125000
+[2023-11-07 17:47:19.042022] [DEBUG] Getting data from remote DB with data: {"table":"pcta_term_taxonomy","last_primary_key":0,"primary_key_column":"term_taxonomy_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":538,"column_names":{"taxonomy":"taxonomy","description":"description","term_taxonomy_id":"term_taxonomy_id","term_id":"term_id","parent":"parent","count":"count"},"time_limit":8.432219982147217}
+[2023-11-07 17:47:20.453568] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 3774
+[2023-11-07 17:47:20.453746] [DEBUG] Got rows: 36
+[2023-11-07 17:47:20.454218] [INFO] Marking table: pcta_term_taxonomy as completed
+[2023-11-07 17:47:20.461432] [DEBUG] Inserted 36 rows into target database
+[2023-11-07 17:47:20.461555] [DEBUG] Lastrun in : 1.4195640087128 seconds - response size throttle: 131250 and remaining time: 15.444888114929
+[2023-11-07 17:47:20.462098] [INFO] Database progress update: Data: 4.4MB / 4.8MB - Rows: 8,980 / 9,831
+[2023-11-07 17:47:20.469599] [INFO] New table is started: pcta_termmeta and setting new max response size: 125000
+[2023-11-07 17:47:20.469789] [DEBUG] Getting data from remote DB with data: {"table":"pcta_termmeta","last_primary_key":0,"primary_key_column":"meta_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":1923,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","meta_id":"meta_id","term_id":"term_id"},"time_limit":7.718333005905151}
+[2023-11-07 17:47:21.346593] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1102
+[2023-11-07 17:47:21.346768] [DEBUG] Got rows: 44
+[2023-11-07 17:47:21.347347] [INFO] Marking table: pcta_termmeta as completed
+[2023-11-07 17:47:21.353143] [DEBUG] Inserted 44 rows into target database
+[2023-11-07 17:47:21.353282] [DEBUG] Lastrun in : 0.88350892066956 seconds - response size throttle: 131250 and remaining time: 14.553161144257
+[2023-11-07 17:47:21.353598] [INFO] Database progress update: Data: 4.4MB / 4.8MB - Rows: 9,024 / 9,831
+[2023-11-07 17:47:21.360619] [INFO] New table is started: pcta_terms and setting new max response size: 125000
+[2023-11-07 17:47:21.360756] [DEBUG] Getting data from remote DB with data: {"table":"pcta_terms","last_primary_key":0,"primary_key_column":"term_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":3125,"column_names":{"name":"name","slug":"slug","term_id":"term_id","term_group":"term_group"},"time_limit":7.272848010063171}
+[2023-11-07 17:47:22.311894] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1118
+[2023-11-07 17:47:22.312090] [DEBUG] Got rows: 36
+[2023-11-07 17:47:22.312637] [INFO] Marking table: pcta_terms as completed
+[2023-11-07 17:47:22.318923] [DEBUG] Inserted 36 rows into target database
+[2023-11-07 17:47:22.319086] [DEBUG] Lastrun in : 0.9583420753479 seconds - response size throttle: 131250 and remaining time: 13.587357997894
+[2023-11-07 17:47:22.319525] [INFO] Database progress update: Data: 4.5MB / 4.8MB - Rows: 9,060 / 9,831
+[2023-11-07 17:47:22.326705] [INFO] New table is started: pcta_usermeta and setting new max response size: 125000
+[2023-11-07 17:47:22.326861] [DEBUG] Getting data from remote DB with data: {"table":"pcta_usermeta","last_primary_key":0,"primary_key_column":"umeta_id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":892,"column_names":{"meta_key":"meta_key","meta_value":"meta_value","umeta_id":"umeta_id","user_id":"user_id"},"time_limit":6.789796590805054}
+[2023-11-07 17:47:23.188543] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 3758
+[2023-11-07 17:47:23.188708] [DEBUG] Got rows: 63
+[2023-11-07 17:47:23.189183] [INFO] Marking table: pcta_usermeta as completed
+[2023-11-07 17:47:23.197578] [DEBUG] Inserted 63 rows into target database
+[2023-11-07 17:47:23.197730] [DEBUG] Lastrun in : 0.8708770275116 seconds - response size throttle: 131250 and remaining time: 12.708716154099
+[2023-11-07 17:47:23.198406] [INFO] Database progress update: Data: 4.5MB / 4.8MB - Rows: 9,123 / 9,831
+[2023-11-07 17:47:23.207447] [INFO] New table is started: pcta_users and setting new max response size: 125000
+[2023-11-07 17:47:23.207628] [DEBUG] Getting data from remote DB with data: {"table":"pcta_users","last_primary_key":0,"primary_key_column":"ID","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":844,"column_names":{"user_login":"user_login","user_pass":"user_pass","user_nicename":"user_nicename","user_email":"user_email","user_url":"user_url","user_registered":"user_registered","user_activation_key":"user_activation_key","display_name":"display_name","ID":"ID","user_status":"user_status"},"time_limit":6.349413514137268}
+[2023-11-07 17:47:24.621486] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 622
+[2023-11-07 17:47:24.621663] [DEBUG] Got rows: 2
+[2023-11-07 17:47:24.622280] [INFO] Marking table: pcta_users as completed
+[2023-11-07 17:47:24.628408] [DEBUG] Inserted 2 rows into target database
+[2023-11-07 17:47:24.628595] [DEBUG] Lastrun in : 1.4209749698639 seconds - response size throttle: 131250 and remaining time: 11.277851104736
+[2023-11-07 17:47:24.629134] [INFO] Database progress update: Data: 4.5MB / 4.8MB - Rows: 9,125 / 9,831
+[2023-11-07 17:47:24.637782] [INFO] New table is started: pcta_yoast_indexable and setting new max response size: 125000
+[2023-11-07 17:47:24.637997] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_indexable","last_primary_key":0,"primary_key_column":"id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":141,"column_names":{"permalink":"permalink","permalink_hash":"permalink_hash","object_type":"object_type","object_sub_type":"object_sub_type","title":"title","description":"description","breadcrumb_title":"breadcrumb_title","post_status":"post_status","canonical":"canonical","primary_focus_keyword":"primary_focus_keyword","twitter_title":"twitter_title","twitter_image":"twitter_image","twitter_description":"twitter_description","twitter_image_id":"twitter_image_id","twitter_image_source":"twitter_image_source","open_graph_title":"open_graph_title","open_graph_description":"open_graph_description","open_graph_image":"open_graph_image","open_graph_image_id":"open_graph_image_id","open_graph_image_source":"open_graph_image_source","open_graph_image_meta":"open_graph_image_meta","created_at":"created_at","updated_at":"updated_at","language":"language","region":"region","schema_page_type":"schema_page_type","schema_article_type":"schema_article_type","object_last_modified":"object_last_modified","object_published_at":"object_published_at","id":"id","object_id":"object_id","author_id":"author_id","post_parent":"post_parent","is_public":"is_public","is_protected":"is_protected","has_public_posts":"has_public_posts","number_of_pages":"number_of_pages","primary_focus_keyword_score":"primary_focus_keyword_score","readability_score":"readability_score","is_cornerstone":"is_cornerstone","is_robots_noindex":"is_robots_noindex","is_robots_nofollow":"is_robots_nofollow","is_robots_noarchive":"is_robots_noarchive","is_robots_noimageindex":"is_robots_noimageindex","is_robots_nosnippet":"is_robots_nosnippet","link_count":"link_count","incoming_link_count":"incoming_link_count","prominent_words_version":"prominent_words_version","blog_id":"blog_id","has_ancestors":"has_ancestors","estimated_reading_time_minutes":"estimated_reading_time_minutes","version":"version","inclusive_language_score":"inclusive_language_score"},"time_limit":5.634232997894287}
+[2023-11-07 17:47:25.650966] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 28462
+[2023-11-07 17:47:25.651149] [DEBUG] Got rows: 133
+[2023-11-07 17:47:25.651720] [INFO] Marking table: pcta_yoast_indexable as completed
+[2023-11-07 17:47:25.696713] [DEBUG] Inserted 133 rows into target database
+[2023-11-07 17:47:25.696970] [DEBUG] Lastrun in : 1.0590031147003 seconds - response size throttle: 131250 and remaining time: 10.209473133087
+[2023-11-07 17:47:25.697159] [INFO] Database progress update: Data: 4.6MB / 4.8MB - Rows: 9,258 / 9,831
+[2023-11-07 17:47:25.705649] [INFO] New table is started: pcta_yoast_indexable_hierarchy and setting new max response size: 125000
+[2023-11-07 17:47:25.705820] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_indexable_hierarchy","last_primary_key":0,"primary_key_column":"","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":1016,"column_names":{"indexable_id":"indexable_id","ancestor_id":"ancestor_id","depth":"depth","blog_id":"blog_id"},"time_limit":5.100317001342773}
+[2023-11-07 17:47:26.553931] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1166
+[2023-11-07 17:47:26.554162] [DEBUG] Got rows: 132
+[2023-11-07 17:47:26.554714] [INFO] Marking table: pcta_yoast_indexable_hierarchy as completed
+[2023-11-07 17:47:26.561053] [DEBUG] Inserted 132 rows into target database
+[2023-11-07 17:47:26.561195] [DEBUG] Lastrun in : 0.855388879776 seconds - response size throttle: 131250 and remaining time: 9.3452491760254
+[2023-11-07 17:47:26.561509] [INFO] Database progress update: Data: 4.6MB / 4.8MB - Rows: 9,390 / 9,831
+[2023-11-07 17:47:26.568841] [INFO] New table is started: pcta_yoast_migrations and setting new max response size: 125000
+[2023-11-07 17:47:26.569042] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_migrations","last_primary_key":0,"primary_key_column":"id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":183,"column_names":{"version":"version","id":"id"},"time_limit":4.668706059455872}
+[2023-11-07 17:47:27.521360] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 638
+[2023-11-07 17:47:27.521526] [DEBUG] Got rows: 26
+[2023-11-07 17:47:27.522106] [INFO] Marking table: pcta_yoast_migrations as completed
+[2023-11-07 17:47:27.528094] [DEBUG] Inserted 26 rows into target database
+[2023-11-07 17:47:27.528305] [DEBUG] Lastrun in : 0.95926713943481 seconds - response size throttle: 131250 and remaining time: 8.378142118454
+[2023-11-07 17:47:27.528855] [INFO] Database progress update: Data: 4.6MB / 4.8MB - Rows: 9,416 / 9,831
+[2023-11-07 17:47:27.538179] [INFO] New table is started: pcta_yoast_primary_term and setting new max response size: 125000
+[2023-11-07 17:47:27.538381] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_primary_term","last_primary_key":0,"primary_key_column":"id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":160,"column_names":{"taxonomy":"taxonomy","created_at":"created_at","updated_at":"updated_at","id":"id","post_id":"post_id","term_id":"term_id","blog_id":"blog_id"},"time_limit":4.184037566184998}
+[2023-11-07 17:47:28.397222] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1422
+[2023-11-07 17:47:28.397386] [DEBUG] Got rows: 44
+[2023-11-07 17:47:28.397957] [INFO] Marking table: pcta_yoast_primary_term as completed
+[2023-11-07 17:47:28.404091] [DEBUG] Inserted 44 rows into target database
+[2023-11-07 17:47:28.404277] [DEBUG] Lastrun in : 0.86590790748596 seconds - response size throttle: 131250 and remaining time: 7.5021691322327
+[2023-11-07 17:47:28.404645] [INFO] Database progress update: Data: 4.6MB / 4.8MB - Rows: 9,460 / 9,831
+[2023-11-07 17:47:28.411762] [INFO] New table is started: pcta_yoast_seo_links and setting new max response size: 125000
+[2023-11-07 17:47:28.411949] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_seo_links","last_primary_key":0,"primary_key_column":"id","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":880,"column_names":{"url":"url","type":"type","language":"language","region":"region","id":"id","post_id":"post_id","target_post_id":"target_post_id","indexable_id":"indexable_id","target_indexable_id":"target_indexable_id","height":"height","width":"width","size":"size"},"time_limit":3.7472530603408813}
+[2023-11-07 17:47:29.901418] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 5854
+[2023-11-07 17:47:29.901633] [DEBUG] Got rows: 297
+[2023-11-07 17:47:29.902132] [INFO] Marking table: pcta_yoast_seo_links as completed
+[2023-11-07 17:47:29.915751] [DEBUG] Inserted 297 rows into target database
+[2023-11-07 17:47:29.915952] [DEBUG] Lastrun in : 1.5040190219879 seconds - response size throttle: 131250 and remaining time: 5.9904911518097
+[2023-11-07 17:47:29.916219] [INFO] Database progress update: Data: 4.8MB / 4.8MB - Rows: 9,757 / 9,831
+[2023-11-07 17:47:29.923603] [INFO] New table is started: pcta_yoast_seo_meta and setting new max response size: 125000
+[2023-11-07 17:47:29.923776] [DEBUG] Getting data from remote DB with data: {"table":"pcta_yoast_seo_meta","last_primary_key":0,"primary_key_column":"","completed_rows":0,"max_response_size":125000,"type":"pull","default_rows_per_request":565,"column_names":{"object_id":"object_id","internal_link_count":"internal_link_count","incoming_link_count":"incoming_link_count"},"time_limit":2.991339087486267}
+[2023-11-07 17:47:30.804441] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 830
+[2023-11-07 17:47:30.804864] [DEBUG] Got rows: 74
+[2023-11-07 17:47:30.805273] [INFO] Marking table: pcta_yoast_seo_meta as completed
+[2023-11-07 17:47:30.810835] [DEBUG] Inserted 74 rows into target database
+[2023-11-07 17:47:30.810967] [DEBUG] Lastrun in : 0.88720703125 seconds - response size throttle: 131250 and remaining time: 5.0954761505127
+[2023-11-07 17:47:30.811349] [INFO] Database progress update: 
+[2023-11-07 17:47:30.818431] [INFO] Database progress update: 
+[2023-11-07 17:47:30.818614] [INFO] Ending database migration loop with remaining time: 5.0878331661224 seconds
+[2023-11-07 17:47:30.826619] [INFO] Ending migration loop - with remaining time: 5.0798311233521
+[2023-11-07 17:47:30.848790] [INFO] Starting migration loop - With allotted time: 26.981297969818 seconds
+[2023-11-07 17:47:30.856135] [INFO] Ending migration loop - with remaining time: 26.973953008652
+[2023-11-07 17:47:30.879394] [INFO] Starting migration loop - With allotted time: 26.980194091797 seconds
+[2023-11-07 17:47:30.879648] [INFO] Starting finalize - Remaining time: 26.979932069778
+[2023-11-07 17:47:30.880250] [INFO] Starting database finalize with remaining time: 26.979331016541
+[2023-11-07 17:47:30.880370] [INFO] Prepare SQL queries for database finalize
+[2023-11-07 17:47:30.881439] [INFO] Add sql statement to delete WP Synchro options: DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name LIKE 'wpsynchro\_%'
+[2023-11-07 17:47:30.881644] [INFO] Add sql statement to copy current WP Synchro options to temp table: INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options where option_name like 'wpsynchro_%'
+[2023-11-07 17:47:30.881788] [INFO] Add sql statement to delete options field (db preserve): DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'active_plugins'
+[2023-11-07 17:47:30.881865] [INFO] Add sql statement to copy existing value from options table (db preserve): INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'active_plugins'
+[2023-11-07 17:47:30.882012] [INFO] Add sql statement to delete options field (db preserve): DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'blog_public'
+[2023-11-07 17:47:30.882099] [INFO] Add sql statement to copy existing value from options table (db preserve): INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'blog_public'
+[2023-11-07 17:47:30.882215] [INFO] Add sql statement to delete options field (db preserve): DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = ''
+[2023-11-07 17:47:30.882307] [INFO] Add sql statement to copy existing value from options table (db preserve): INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = ''
+[2023-11-07 17:47:30.882437] [DEBUG] Retrieving new masterdata from target
+[2023-11-07 17:47:30.882620] [DEBUG] Calling masterdata service on: http://localhost:8888/peruconexiontravel/ with intent to user as 'target'
+[2023-11-07 17:47:30.990618] [DEBUG] Retrieving new masterdata completed
+[2023-11-07 17:47:30.990942] [DEBUG] Add drop table in database on _mig_wpmdb_alter_statements and rename from wpsyntmp_654a7802ef59d
+[2023-11-07 17:47:30.991369] [DEBUG] Add drop table in database on pcta_commentmeta and rename from wpsyntmp_654a7802ef5dc
+[2023-11-07 17:47:30.991696] [DEBUG] Add drop table in database on pcta_comments and rename from wpsyntmp_654a7802ef602
+[2023-11-07 17:47:30.991804] [DEBUG] Add drop table in database on pcta_fbv and rename from wpsyntmp_654a7802ef644
+[2023-11-07 17:47:30.991895] [DEBUG] Add drop table in database on pcta_fbv_attachment_folder and rename from wpsyntmp_654a7802ef65b
+[2023-11-07 17:47:30.991976] [DEBUG] Add drop table in database on pcta_links and rename from wpsyntmp_654a7802ef66e
+[2023-11-07 17:47:30.992074] [DEBUG] Add drop table in database on pcta_masterslider_options and rename from wpsyntmp_654a7802ef69c
+[2023-11-07 17:47:30.992155] [DEBUG] Add drop table in database on pcta_masterslider_sliders and rename from wpsyntmp_654a7802ef6b3
+[2023-11-07 17:47:30.992304] [DEBUG] Add drop table in database on pcta_options and rename from wpsyntmp_654a7802ef6d2
+[2023-11-07 17:47:30.992467] [DEBUG] Add drop table in database on pcta_postmeta and rename from wpsyntmp_654a7802ef6f1
+[2023-11-07 17:47:30.992567] [DEBUG] Add drop table in database on pcta_posts and rename from wpsyntmp_654a7802ef70f
+[2023-11-07 17:47:30.992664] [DEBUG] Add drop table in database on pcta_term_relationships and rename from wpsyntmp_654a7802ef753
+[2023-11-07 17:47:30.992748] [DEBUG] Add drop table in database on pcta_term_taxonomy and rename from wpsyntmp_654a7802ef76c
+[2023-11-07 17:47:30.992848] [DEBUG] Add drop table in database on pcta_termmeta and rename from wpsyntmp_654a7802ef78c
+[2023-11-07 17:47:30.992981] [DEBUG] Add drop table in database on pcta_terms and rename from wpsyntmp_654a7802ef7aa
+[2023-11-07 17:47:30.993077] [DEBUG] Add drop table in database on pcta_usermeta and rename from wpsyntmp_654a7802ef7c9
+[2023-11-07 17:47:30.993188] [DEBUG] Add drop table in database on pcta_users and rename from wpsyntmp_654a7802ef7e7
+[2023-11-07 17:47:30.993295] [DEBUG] Add drop table in database on pcta_yoast_indexable and rename from wpsyntmp_654a7802ef81a
+[2023-11-07 17:47:30.993432] [DEBUG] Add drop table in database on pcta_yoast_indexable_hierarchy and rename from wpsyntmp_654a7802ef86c
+[2023-11-07 17:47:30.993513] [DEBUG] Add drop table in database on pcta_yoast_migrations and rename from wpsyntmp_654a7802ef887
+[2023-11-07 17:47:30.993591] [DEBUG] Add drop table in database on pcta_yoast_primary_term and rename from wpsyntmp_654a7802ef89c
+[2023-11-07 17:47:30.993754] [DEBUG] Add drop table in database on pcta_yoast_prominent_words and rename from wpsyntmp_654a7802ef8b8
+[2023-11-07 17:47:30.993846] [DEBUG] Add drop table in database on pcta_yoast_seo_links and rename from wpsyntmp_654a7802ef8d3
+[2023-11-07 17:47:30.993917] [DEBUG] Add drop table in database on pcta_yoast_seo_meta and rename from wpsyntmp_654a7802ef8f3
+[2023-11-07 17:47:30.994039] [DEBUG] Finalize SQL queries:
+
+Array
+(
+    [0] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_options`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef6d2` TO `pcta_options`
+        )
+
+    [1] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_usermeta`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef7c9` TO `pcta_usermeta`
+        )
+
+    [2] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_users`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef7e7` TO `pcta_users`
+        )
+
+    [3] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_seo_meta`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef8f3` TO `pcta_yoast_seo_meta`
+        )
+
+    [4] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_seo_links`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef8d3` TO `pcta_yoast_seo_links`
+        )
+
+    [5] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_prominent_words`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef8b8` TO `pcta_yoast_prominent_words`
+        )
+
+    [6] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_primary_term`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef89c` TO `pcta_yoast_primary_term`
+        )
+
+    [7] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_migrations`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef887` TO `pcta_yoast_migrations`
+        )
+
+    [8] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_indexable_hierarchy`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef86c` TO `pcta_yoast_indexable_hierarchy`
+        )
+
+    [9] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_yoast_indexable`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef81a` TO `pcta_yoast_indexable`
+        )
+
+    [10] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_terms`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef7aa` TO `pcta_terms`
+        )
+
+    [11] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_termmeta`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef78c` TO `pcta_termmeta`
+        )
+
+    [12] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_term_taxonomy`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef76c` TO `pcta_term_taxonomy`
+        )
+
+    [13] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_term_relationships`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef753` TO `pcta_term_relationships`
+        )
+
+    [14] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_posts`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef70f` TO `pcta_posts`
+        )
+
+    [15] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_postmeta`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef6f1` TO `pcta_postmeta`
+        )
+
+    [16] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_masterslider_sliders`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef6b3` TO `pcta_masterslider_sliders`
+        )
+
+    [17] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_masterslider_options`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef69c` TO `pcta_masterslider_options`
+        )
+
+    [18] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_links`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef66e` TO `pcta_links`
+        )
+
+    [19] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_fbv_attachment_folder`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef65b` TO `pcta_fbv_attachment_folder`
+        )
+
+    [20] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_fbv`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef644` TO `pcta_fbv`
+        )
+
+    [21] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_comments`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef602` TO `pcta_comments`
+        )
+
+    [22] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `pcta_commentmeta`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef5dc` TO `pcta_commentmeta`
+        )
+
+    [23] => Array
+        (
+            [0] => DROP TABLE IF EXISTS `_mig_wpmdb_alter_statements`
+            [1] => RENAME TABLE `wpsyntmp_654a7802ef59d` TO `_mig_wpmdb_alter_statements`
+        )
+
+    [24] => Array
+        (
+            [0] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name LIKE 'wpsynchro\_%'
+            [1] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options where option_name like 'wpsynchro_%'
+            [2] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'active_plugins'
+            [3] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'active_plugins'
+            [4] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'blog_public'
+            [5] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'blog_public'
+            [6] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = ''
+            [7] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = ''
+        )
+
+)
+
+[2023-11-07 17:47:30.994194] [INFO] Done preparing SQL queries for database finalize
+[2023-11-07 17:47:31.001913] [INFO] Ending migration loop - with remaining time: 26.857693195343
+[2023-11-07 17:47:31.027433] [INFO] Starting migration loop - With allotted time: 26.980612039566 seconds
+[2023-11-07 17:47:31.027614] [INFO] Starting finalize - Remaining time: 26.980422973633
+[2023-11-07 17:47:31.028188] [INFO] Starting database finalize with remaining time: 26.979850053787
+[2023-11-07 17:47:31.028466] [DEBUG] Calling remote client db service with 8 SQL statements:
+
+Array
+(
+    [0] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name LIKE 'wpsynchro\_%'
+    [1] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options where option_name like 'wpsynchro_%'
+    [2] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'active_plugins'
+    [3] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'active_plugins'
+    [4] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = 'blog_public'
+    [5] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = 'blog_public'
+    [6] => DELETE FROM `wpsyntmp_654a7802ef6d2`  WHERE option_name = ''
+    [7] => INSERT INTO `wpsyntmp_654a7802ef6d2` (option_name,option_value,autoload) SELECT option_name,option_value,autoload FROM pcta_options WHERE option_name = ''
+)
+
+[2023-11-07 17:47:31.046540] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.054095] [INFO] Ending migration loop - with remaining time: 26.953948974609
+[2023-11-07 17:47:31.076409] [INFO] Starting migration loop - With allotted time: 26.981234073639 seconds
+[2023-11-07 17:47:31.076591] [INFO] Starting finalize - Remaining time: 26.981043100357
+[2023-11-07 17:47:31.077248] [INFO] Starting database finalize with remaining time: 26.980386018753
+[2023-11-07 17:47:31.077482] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `_mig_wpmdb_alter_statements`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef59d` TO `_mig_wpmdb_alter_statements`
+)
+
+[2023-11-07 17:47:31.109620] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.116871] [INFO] Ending migration loop - with remaining time: 26.940767049789
+[2023-11-07 17:47:31.140148] [INFO] Starting migration loop - With allotted time: 26.981434106827 seconds
+[2023-11-07 17:47:31.140334] [INFO] Starting finalize - Remaining time: 26.981239080429
+[2023-11-07 17:47:31.210827] [INFO] Starting database finalize with remaining time: 26.910752058029
+[2023-11-07 17:47:31.212538] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_commentmeta`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef5dc` TO `pcta_commentmeta`
+)
+
+[2023-11-07 17:47:31.229280] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.236808] [INFO] Ending migration loop - with remaining time: 26.884771108627
+[2023-11-07 17:47:31.259396] [INFO] Starting migration loop - With allotted time: 26.981506109238 seconds
+[2023-11-07 17:47:31.259581] [INFO] Starting finalize - Remaining time: 26.981312990189
+[2023-11-07 17:47:31.260203] [INFO] Starting database finalize with remaining time: 26.980694055557
+[2023-11-07 17:47:31.260407] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_comments`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef602` TO `pcta_comments`
+)
+
+[2023-11-07 17:47:31.277192] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.284476] [INFO] Ending migration loop - with remaining time: 26.95642209053
+[2023-11-07 17:47:31.307130] [INFO] Starting migration loop - With allotted time: 26.981778860092 seconds
+[2023-11-07 17:47:31.307316] [INFO] Starting finalize - Remaining time: 26.981583833694
+[2023-11-07 17:47:31.307881] [INFO] Starting database finalize with remaining time: 26.981019973755
+[2023-11-07 17:47:31.308230] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_fbv`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef644` TO `pcta_fbv`
+)
+
+[2023-11-07 17:47:31.324751] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.332004] [INFO] Ending migration loop - with remaining time: 26.956898927689
+[2023-11-07 17:47:31.355423] [INFO] Starting migration loop - With allotted time: 26.980705976486 seconds
+[2023-11-07 17:47:31.355645] [INFO] Starting finalize - Remaining time: 26.980473995209
+[2023-11-07 17:47:31.356114] [INFO] Starting database finalize with remaining time: 26.980005025864
+[2023-11-07 17:47:31.356392] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_fbv_attachment_folder`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef65b` TO `pcta_fbv_attachment_folder`
+)
+
+[2023-11-07 17:47:31.373489] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.380696] [INFO] Ending migration loop - with remaining time: 26.955426931381
+[2023-11-07 17:47:31.402980] [INFO] Starting migration loop - With allotted time: 26.98106098175 seconds
+[2023-11-07 17:47:31.403386] [INFO] Starting finalize - Remaining time: 26.980640888214
+[2023-11-07 17:47:31.404030] [INFO] Starting database finalize with remaining time: 26.980002880096
+[2023-11-07 17:47:31.404212] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_links`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef66e` TO `pcta_links`
+)
+
+[2023-11-07 17:47:31.418003] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.425715] [INFO] Ending migration loop - with remaining time: 26.95831489563
+[2023-11-07 17:47:31.448154] [INFO] Starting migration loop - With allotted time: 26.981093883514 seconds
+[2023-11-07 17:47:31.448313] [INFO] Starting finalize - Remaining time: 26.980927944183
+[2023-11-07 17:47:31.448885] [INFO] Starting database finalize with remaining time: 26.980356931686
+[2023-11-07 17:47:31.449151] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_masterslider_options`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef69c` TO `pcta_masterslider_options`
+)
+
+[2023-11-07 17:47:31.464353] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.472518] [INFO] Ending migration loop - with remaining time: 26.95673084259
+[2023-11-07 17:47:31.494492] [INFO] Starting migration loop - With allotted time: 26.981404066086 seconds
+[2023-11-07 17:47:31.494669] [INFO] Starting finalize - Remaining time: 26.981220006943
+[2023-11-07 17:47:31.495235] [INFO] Starting database finalize with remaining time: 26.980654001236
+[2023-11-07 17:47:31.495612] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_masterslider_sliders`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef6b3` TO `pcta_masterslider_sliders`
+)
+
+[2023-11-07 17:47:31.510545] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.517716] [INFO] Ending migration loop - with remaining time: 26.95817399025
+[2023-11-07 17:47:31.543444] [INFO] Starting migration loop - With allotted time: 26.979520082474 seconds
+[2023-11-07 17:47:31.543615] [INFO] Starting finalize - Remaining time: 26.979340076447
+[2023-11-07 17:47:31.544137] [INFO] Starting database finalize with remaining time: 26.978817939758
+[2023-11-07 17:47:31.544336] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_postmeta`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef6f1` TO `pcta_postmeta`
+)
+
+[2023-11-07 17:47:31.559982] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.567214] [INFO] Ending migration loop - with remaining time: 26.955744028091
+[2023-11-07 17:47:31.591332] [INFO] Starting migration loop - With allotted time: 26.981341123581 seconds
+[2023-11-07 17:47:31.591495] [INFO] Starting finalize - Remaining time: 26.981167078018
+[2023-11-07 17:47:31.591907] [INFO] Starting database finalize with remaining time: 26.980756044388
+[2023-11-07 17:47:31.592176] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_posts`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef70f` TO `pcta_posts`
+)
+
+[2023-11-07 17:47:31.608019] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.615284] [INFO] Ending migration loop - with remaining time: 26.957383155823
+[2023-11-07 17:47:31.637348] [INFO] Starting migration loop - With allotted time: 26.981303930283 seconds
+[2023-11-07 17:47:31.637678] [INFO] Starting finalize - Remaining time: 26.980964899063
+[2023-11-07 17:47:31.638100] [INFO] Starting database finalize with remaining time: 26.980540037155
+[2023-11-07 17:47:31.638499] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_term_relationships`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef753` TO `pcta_term_relationships`
+)
+
+[2023-11-07 17:47:31.651288] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.658774] [INFO] Ending migration loop - with remaining time: 26.959871053696
+[2023-11-07 17:47:31.682111] [INFO] Starting migration loop - With allotted time: 26.980371952057 seconds
+[2023-11-07 17:47:31.682280] [INFO] Starting finalize - Remaining time: 26.98019695282
+[2023-11-07 17:47:31.682889] [INFO] Starting database finalize with remaining time: 26.979589939117
+[2023-11-07 17:47:31.683136] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_term_taxonomy`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef76c` TO `pcta_term_taxonomy`
+)
+
+[2023-11-07 17:47:31.698163] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.705777] [INFO] Ending migration loop - with remaining time: 26.956707000732
+[2023-11-07 17:47:31.729081] [INFO] Starting migration loop - With allotted time: 26.980716943741 seconds
+[2023-11-07 17:47:31.729240] [INFO] Starting finalize - Remaining time: 26.980551958084
+[2023-11-07 17:47:31.729856] [INFO] Starting database finalize with remaining time: 26.979935884476
+[2023-11-07 17:47:31.729956] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_termmeta`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef78c` TO `pcta_termmeta`
+)
+
+[2023-11-07 17:47:31.744570] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.751714] [INFO] Ending migration loop - with remaining time: 26.958081960678
+[2023-11-07 17:47:31.775323] [INFO] Starting migration loop - With allotted time: 26.981230974197 seconds
+[2023-11-07 17:47:31.775504] [INFO] Starting finalize - Remaining time: 26.981042146683
+[2023-11-07 17:47:31.776095] [INFO] Starting database finalize with remaining time: 26.980451107025
+[2023-11-07 17:47:31.776490] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_terms`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef7aa` TO `pcta_terms`
+)
+
+[2023-11-07 17:47:31.790748] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.797957] [INFO] Ending migration loop - with remaining time: 26.95859503746
+[2023-11-07 17:47:31.853252] [INFO] Starting migration loop - With allotted time: 26.948395013809 seconds
+[2023-11-07 17:47:31.853603] [INFO] Starting finalize - Remaining time: 26.948026895523
+[2023-11-07 17:47:31.854092] [INFO] Starting database finalize with remaining time: 26.947536945343
+[2023-11-07 17:47:31.854330] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_indexable`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef81a` TO `pcta_yoast_indexable`
+)
+
+[2023-11-07 17:47:31.882056] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.890568] [INFO] Ending migration loop - with remaining time: 26.911073923111
+[2023-11-07 17:47:31.918528] [INFO] Starting migration loop - With allotted time: 26.977046012878 seconds
+[2023-11-07 17:47:31.918923] [INFO] Starting finalize - Remaining time: 26.976619005203
+[2023-11-07 17:47:31.919452] [INFO] Starting database finalize with remaining time: 26.976093053818
+[2023-11-07 17:47:31.919894] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_indexable_hierarchy`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef86c` TO `pcta_yoast_indexable_hierarchy`
+)
+
+[2023-11-07 17:47:31.937245] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.946020] [INFO] Ending migration loop - with remaining time: 26.949525117874
+[2023-11-07 17:47:31.969051] [INFO] Starting migration loop - With allotted time: 26.980638027191 seconds
+[2023-11-07 17:47:31.969433] [INFO] Starting finalize - Remaining time: 26.980231046677
+[2023-11-07 17:47:31.969917] [INFO] Starting database finalize with remaining time: 26.979748010635
+[2023-11-07 17:47:31.970135] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_migrations`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef887` TO `pcta_yoast_migrations`
+)
+
+[2023-11-07 17:47:31.987488] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:31.994989] [INFO] Ending migration loop - with remaining time: 26.95468211174
+[2023-11-07 17:47:32.020811] [INFO] Starting migration loop - With allotted time: 26.977999210358 seconds
+[2023-11-07 17:47:32.021125] [INFO] Starting finalize - Remaining time: 26.977663040161
+[2023-11-07 17:47:32.021610] [INFO] Starting database finalize with remaining time: 26.977178096771
+[2023-11-07 17:47:32.021823] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_primary_term`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef89c` TO `pcta_yoast_primary_term`
+)
+
+[2023-11-07 17:47:32.039983] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.047449] [INFO] Ending migration loop - with remaining time: 26.951349020004
+[2023-11-07 17:47:32.073678] [INFO] Starting migration loop - With allotted time: 26.978312015533 seconds
+[2023-11-07 17:47:32.073892] [INFO] Starting finalize - Remaining time: 26.97808599472
+[2023-11-07 17:47:32.074348] [INFO] Starting database finalize with remaining time: 26.977631092072
+[2023-11-07 17:47:32.074660] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_prominent_words`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef8b8` TO `pcta_yoast_prominent_words`
+)
+
+[2023-11-07 17:47:32.091710] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.098819] [INFO] Ending migration loop - with remaining time: 26.953164100647
+[2023-11-07 17:47:32.121391] [INFO] Starting migration loop - With allotted time: 26.980968952179 seconds
+[2023-11-07 17:47:32.121564] [INFO] Starting finalize - Remaining time: 26.980786085129
+[2023-11-07 17:47:32.122143] [INFO] Starting database finalize with remaining time: 26.980207920074
+[2023-11-07 17:47:32.122381] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_seo_links`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef8d3` TO `pcta_yoast_seo_links`
+)
+
+[2023-11-07 17:47:32.139517] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.146690] [INFO] Ending migration loop - with remaining time: 26.955664873123
+[2023-11-07 17:47:32.168174] [INFO] Starting migration loop - With allotted time: 26.981824159622 seconds
+[2023-11-07 17:47:32.168336] [INFO] Starting finalize - Remaining time: 26.981654167175
+[2023-11-07 17:47:32.168834] [INFO] Starting database finalize with remaining time: 26.981158971786
+[2023-11-07 17:47:32.169098] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_yoast_seo_meta`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef8f3` TO `pcta_yoast_seo_meta`
+)
+
+[2023-11-07 17:47:32.186354] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.193964] [INFO] Ending migration loop - with remaining time: 26.956032037735
+[2023-11-07 17:47:32.216653] [INFO] Starting migration loop - With allotted time: 26.980626106262 seconds
+[2023-11-07 17:47:32.216796] [INFO] Starting finalize - Remaining time: 26.980476140976
+[2023-11-07 17:47:32.217484] [INFO] Starting database finalize with remaining time: 26.979789018631
+[2023-11-07 17:47:32.217772] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_users`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef7e7` TO `pcta_users`
+)
+
+[2023-11-07 17:47:32.231932] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.239537] [INFO] Ending migration loop - with remaining time: 26.957744121552
+[2023-11-07 17:47:32.261961] [INFO] Starting migration loop - With allotted time: 26.98090004921 seconds
+[2023-11-07 17:47:32.262137] [INFO] Starting finalize - Remaining time: 26.980715036392
+[2023-11-07 17:47:32.262692] [INFO] Starting database finalize with remaining time: 26.980160951614
+[2023-11-07 17:47:32.262927] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_usermeta`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef7c9` TO `pcta_usermeta`
+)
+
+[2023-11-07 17:47:32.277708] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.284843] [INFO] Ending migration loop - with remaining time: 26.958009958267
+[2023-11-07 17:47:32.308153] [INFO] Starting migration loop - With allotted time: 26.9818110466 seconds
+[2023-11-07 17:47:32.308346] [INFO] Starting finalize - Remaining time: 26.981605052948
+[2023-11-07 17:47:32.308946] [INFO] Starting database finalize with remaining time: 26.981006145477
+[2023-11-07 17:47:32.309232] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => DROP TABLE IF EXISTS `pcta_options`
+    [1] => RENAME TABLE `wpsyntmp_654a7802ef6d2` TO `pcta_options`
+)
+
+[2023-11-07 17:47:32.323620] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 254
+[2023-11-07 17:47:32.332186] [INFO] Ending migration loop - with remaining time: 26.957770109177
+[2023-11-07 17:47:32.387168] [INFO] Starting migration loop - With allotted time: 26.949360132217 seconds
+[2023-11-07 17:47:32.387374] [INFO] Starting finalize - Remaining time: 26.949144124985
+[2023-11-07 17:47:32.387786] [INFO] Starting database finalize with remaining time: 26.94873213768
+[2023-11-07 17:47:32.388070] [DEBUG] Retrieving new masterdata from target
+[2023-11-07 17:47:32.389146] [DEBUG] Calling masterdata service on: http://localhost:8888/peruconexiontravel/ with intent to user as 'target'
+[2023-11-07 17:47:32.466931] [DEBUG] Retrieving new masterdata completed
+[2023-11-07 17:47:32.467092] [DEBUG] No excess temp tables to delete
+[2023-11-07 17:47:32.474800] [INFO] Ending migration loop - with remaining time: 26.86172413826
+[2023-11-07 17:47:32.497241] [INFO] Starting migration loop - With allotted time: 26.981070995331 seconds
+[2023-11-07 17:47:32.497402] [INFO] Starting finalize - Remaining time: 26.980901956558
+[2023-11-07 17:47:32.498024] [INFO] Starting database finalize with remaining time: 26.980283975601
+[2023-11-07 17:47:32.498279] [DEBUG] Retrieving new masterdata from target
+[2023-11-07 17:47:32.498480] [DEBUG] Calling masterdata service on: http://localhost:8888/peruconexiontravel/ with intent to user as 'target'
+[2023-11-07 17:47:32.568987] [DEBUG] Retrieving new masterdata completed
+[2023-11-07 17:47:32.576925] [INFO] Ending migration loop - with remaining time: 26.901385784149
+[2023-11-07 17:47:32.599197] [INFO] Starting migration loop - With allotted time: 26.981700897217 seconds
+[2023-11-07 17:47:32.599358] [INFO] Starting finalize - Remaining time: 26.981532812119
+[2023-11-07 17:47:32.599927] [INFO] Completed finalize - remaining time: 26.980964899063
+[2023-11-07 17:47:32.600230] [INFO] Execute last actions on target - remaining time: 26.980674982071
+[2023-11-07 17:47:32.624960] [INFO] Completed last actions on target - remaining time: 26.955935955048
+[2023-11-07 17:47:32.633801] [INFO] Ending migration loop - with remaining time: 26.94709277153
