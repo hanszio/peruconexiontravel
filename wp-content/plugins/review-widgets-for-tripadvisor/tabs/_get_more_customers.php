@@ -12,7 +12,7 @@
 <?php echo TrustindexPlugin_tripadvisor::___('Use the widgets matching your page the best to build trust.'); ?>
 </li>
 <li>
-<strong><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 66 ]); ?></strong><br />
+<strong><?php echo TrustindexPlugin_tripadvisor::___("%d review platforms", [ 133 ]); ?></strong><br />
 <?php echo TrustindexPlugin_tripadvisor::___("Add more reviews to your widget from %s, etc. to enjoy more trust, and to keep customers on your site.", [ 'Google, Facebook, Yelp, Amazon, Tripadvisor, Booking.com, Airbnb, Hotels.com, Capterra, Foursquare, Opentable' ]); ?><br />
 <img src="<?php echo $trustindex_pm_tripadvisor->get_plugin_file_url('static/img/platforms.png'); ?>" alt="" style="margin-top: 5px" />
 </li>

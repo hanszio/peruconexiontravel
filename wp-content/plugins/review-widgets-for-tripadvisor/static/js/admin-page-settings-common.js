@@ -790,32 +790,32 @@ jQuery(document).ready(function() {
 	});
 
 	// review download notification email
-	jQuery(document).on('change', '.ti-notification-email input[type="text"]', function(event) {
+	jQuery(document).on('click', '.btn-notification-email-save', function(event) {
 		event.preventDefault();
 
-		let type = jQuery(this).data('type');
-		let nonce = jQuery(this).data('nonce');
-		let email = jQuery(this).val().trim().toLowerCase();
 		let container = jQuery(this).closest('.ti-notification-email');
+		let input = container.find('input[type="text"]');
+		let type = input.data('type');
+		let nonce = input.data('nonce');
+		let email = input.val().trim().toLowerCase();
 
 		// hide alerts
-		container.find('.ti-text-danger, .ti-text-success').addClass('d-none');
+		container.find('.ti-notice').hide();
 
 		// check email
 		if (email !== "" && !/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)) {
-			container.find('.ti-text-danger').removeClass('d-none');
-			return setTimeout(() => container.find('.ti-text-danger').addClass('d-none'), 3000);
+			return container.find('.ti-notice').fadeIn();
 		}
+
+		// show loading
+		jQuery('#ti-loading').addClass('active');
 
 		// save email
 		jQuery.post("", {
 			'save-notification-email': email,
 			'type': type,
 			'_wpnonce': nonce
-		}, () => {
-			container.find('.ti-text-success').removeClass('d-none');
-			return setTimeout(() => container.find('.ti-text-success').addClass('d-none'), 3000);
-		});
+		}, () => location.reload(true));
 	});
 });
 

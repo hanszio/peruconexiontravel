@@ -82,17 +82,17 @@
 1. <?php echo TrustindexPlugin_tripadvisor::___('Connect %s platform', [ 'Tripadvisor' ]); ?>
 </h1>
 <?php if ($trustindex_pm_tripadvisor->is_noreg_linked()): ?>
-<?php $page_details = get_option($trustindex_pm_tripadvisor->get_option_name('page-details')); ?>
+<?php $pageDetails = $trustindex_pm_tripadvisor->getPageDetails(); ?>
 <div class="ti-source-box">
-<?php if (isset($page_details['avatar_url'])): ?>
-<img src="<?php echo esc_url($page_details['avatar_url']); ?>" />
+<?php if (isset($pageDetails['avatar_url'])): ?>
+<img src="<?php echo esc_url($pageDetails['avatar_url']); ?>" />
 <?php endif; ?>
 <div class="ti-source-info">
-<?php if (isset($page_details['name'])): ?>
-<strong><?php echo esc_html($page_details['name']); ?></strong><br />
+<?php if (isset($pageDetails['name'])): ?>
+<strong><?php echo esc_html($pageDetails['name']); ?></strong><br />
 <?php endif; ?>
-<?php if (isset($page_details['address']) && $page_details['address']): ?>
-<?php echo esc_html($page_details['address']); ?><br />
+<?php if (isset($pageDetails['address']) && $pageDetails['address']): ?>
+<?php echo esc_html($pageDetails['address']); ?><br />
 <?php endif; ?>
 <a href="<?php echo esc_url($trustindex_pm_tripadvisor->getPageUrl()); ?>" target="_blank"><?php echo esc_url($trustindex_pm_tripadvisor->getPageUrl()); ?></a>
 </div>
@@ -122,7 +122,7 @@ update_option($trustindex_pm_tripadvisor->get_option_name('review-download-token
 <input type="hidden" id="ti-noreg-connect-token" name="ti-noreg-connect-token" value="<?php echo $reviewDownloadToken; ?>" />
 <input type="hidden" id="ti-noreg-webhook-url" value="<?php echo $trustindex_pm_tripadvisor->get_webhook_url(); ?>" />
 <input type="hidden" id="ti-noreg-email" value="<?php echo get_option('admin_email'); ?>" />
-<input type="hidden" id="ti-noreg-version" value="10.9.1" />
+<input type="hidden" id="ti-noreg-version" value="11.0" />
 <input type="hidden" id="ti-noreg-review-download" name="review_download" value="0" />
 <input type="hidden" id="ti-noreg-review-request-id" name="review_request_id" value="" />
 <input type="hidden" id="ti-noreg-manual-download" name="manual_download" value=0 />

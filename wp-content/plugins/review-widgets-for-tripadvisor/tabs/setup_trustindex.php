@@ -7,14 +7,14 @@ defined('ABSPATH') or die('No script kiddies please!');
 <div class="ti-col-12">
 <h1><?php echo TrustindexPlugin_tripadvisor::___('Skyrocket Your Sales with Customer Reviews'); ?></h1>
 <h2>
-<?php echo TrustindexPlugin_tripadvisor::___('%s+ WordPress websites use Trustindex to embed reviews fast and easily.', [ '200.000' ]); ?><br />
+<?php echo TrustindexPlugin_tripadvisor::___('%s+ WordPress websites use Trustindex to embed reviews fast and easily.', [ '300.000' ]); ?><br />
 <?php echo TrustindexPlugin_tripadvisor::___('Increase SEO, trust and sales using customer reviews.'); ?>
 </h2>
 <h3><?php echo TrustindexPlugin_tripadvisor::___('Top Features'); ?></h3>
 <ul class="ti-check">
 <li><?php echo TrustindexPlugin_tripadvisor::___('Display unlimited number of reviews'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Create unlimited number of widgets'); ?></li>
-<li><?php echo TrustindexPlugin_tripadvisor::___('%d review platforms', [ 66 ]); ?></li>
+<li><?php echo TrustindexPlugin_tripadvisor::___('%d review platforms', [ 133 ]); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Mix reviews from different platforms'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Get more reviews'); ?></li>
 <li><?php echo TrustindexPlugin_tripadvisor::___('Manage all reviews in one place'); ?></li>

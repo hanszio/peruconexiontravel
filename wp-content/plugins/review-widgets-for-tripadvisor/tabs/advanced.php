@@ -38,7 +38,7 @@ exit;
 }
 $yesIcon = '<span class="dashicons dashicons-yes-alt"></span>';
 $noIcon = '<span class="dashicons dashicons-dismiss"></span>';
-$pluginUpdated = ($trustindex_pm_tripadvisor->get_plugin_current_version() <= "10.9.1");
+$pluginUpdated = ($trustindex_pm_tripadvisor->get_plugin_current_version() <= "11.0");
 $cssInline = get_option($trustindex_pm_tripadvisor->get_option_name('load-css-inline'), 0);
 $css = get_option($trustindex_pm_tripadvisor->get_option_name('css-content'));
 ?>
@@ -53,23 +53,11 @@ $css = get_option($trustindex_pm_tripadvisor->get_option_name('css-content'));
 $isNotificationActive = !$trustindex_pm_tripadvisor->getNotificationParam('review-download-available', 'hidden', false);
 echo TrustindexPlugin_tripadvisor::___('Notification') .': '. ($isNotificationActive ? $yesIcon : $noIcon); ?>
 <?php if ($isNotificationActive): ?>
-<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-available&action=hide"><?php echo TrustindexPlugin_tripadvisor::___('Disable'); ?></a>
+<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-available&action=hide" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___('Disable'); ?></a>
 <?php else: ?>
-<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-available&action=unhide"><?php echo TrustindexPlugin_tripadvisor::___('Enable'); ?></a>
+<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-available&action=unhide" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___('Enable'); ?></a>
 <?php endif; ?>
 </li>
-<?php /*
-<li>
-<div class="ti-notification-email">
-<div class="ti-inner">
-<span><?php echo TrustindexPlugin_tripadvisor::___('Send email notification to:'); ?></span>
-<input type="text" data-type="review-download-available" class="form-control" value="<?php echo $trustindex_pm_tripadvisor->getNotificationParam('review-download-available', 'email', get_option('admin_email')); ?>" />
-</div>
-<span class="d-none ti-text-success"><?php echo TrustindexPlugin_tripadvisor::___('Saved'); ?></span>
-<span class="d-none ti-text-danger"><?php echo TrustindexPlugin_tripadvisor::___('Invalid email'); ?></span>
-<div class="ti-info-text"><?php echo TrustindexPlugin_tripadvisor::___('Leave the field blank if you do not want email notification.'); ?></div>
-</div>
-</li> */ ?>
 </ul>
 </li>
 <li>
@@ -80,19 +68,21 @@ echo TrustindexPlugin_tripadvisor::___('Notification') .': '. ($isNotificationAc
 $isNotificationActive = !$trustindex_pm_tripadvisor->getNotificationParam('review-download-finished', 'hidden', false);
 echo TrustindexPlugin_tripadvisor::___('Notification') .': '. ($isNotificationActive ? $yesIcon : $noIcon); ?>
 <?php if ($isNotificationActive): ?>
-<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-finished&action=hide"><?php echo TrustindexPlugin_tripadvisor::___('Disable'); ?></a>
+<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-finished&action=hide" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___('Disable'); ?></a>
 <?php else: ?>
-<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-finished&action=unhide"><?php echo TrustindexPlugin_tripadvisor::___('Enable'); ?></a>
+<a href="?page=<?php echo sanitize_text_field($_GET['page']); ?>&tab=advanced&notification=review-download-finished&action=unhide" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___('Enable'); ?></a>
 <?php endif; ?>
 </li>
 <li>
 <div class="ti-notification-email">
+<div class="ti-notice notice-error">
+<p><?php echo TrustindexPlugin_tripadvisor::___('Invalid email'); ?></p>
+</div>
 <div class="ti-inner">
 <span><?php echo TrustindexPlugin_tripadvisor::___('Send email notification to:'); ?></span>
 <input type="text" data-type="review-download-finished" data-nonce="<?php echo wp_create_nonce('ti-notification-email-save'); ?>" class="form-control" value="<?php echo $trustindex_pm_tripadvisor->getNotificationParam('review-download-finished', 'email', get_option('admin_email')); ?>" />
+<a href="#" class="btn-text btn-notification-email-save"><?php echo TrustindexPlugin_tripadvisor::___('Save'); ?></a>
 </div>
-<span class="d-none ti-text-success"><?php echo TrustindexPlugin_tripadvisor::___('Saved'); ?></span>
-<span class="d-none ti-text-danger"><?php echo TrustindexPlugin_tripadvisor::___('Invalid email'); ?></span>
 <div class="ti-info-text"><?php echo TrustindexPlugin_tripadvisor::___('Leave the field blank if you do not want email notification.'); ?></div>
 </div>
 </li>
@@ -110,13 +100,13 @@ echo TrustindexPlugin_tripadvisor::___('Notification') .': '. ($isNotificationAc
 <li>
 <?php echo TrustindexPlugin_tripadvisor::___('Use the latest version:') .' '. ($pluginUpdated ? $yesIcon : $noIcon); ?>
 <?php if (!$pluginUpdated): ?>
-<a href="/wp-admin/plugins.php"><?php echo TrustindexPlugin_tripadvisor::___('Update'); ?></a>
+<a href="/wp-admin/plugins.php" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___('Update'); ?></a>
 <?php endif; ?>
 </li>
 <li>
 <?php echo TrustindexPlugin_tripadvisor::___('Use automatic plugin update:') .' '. (in_array($pluginSlug, $autoUpdates) ? $yesIcon : $noIcon); ?>
 <?php if(!in_array($pluginSlug, $autoUpdates)): ?>
-<a href="<?php echo wp_nonce_url('?page='. sanitize_text_field($_GET['page']) .'&tab=advanced&auto_update', 'ti-auto-update'); ?>"><?php echo TrustindexPlugin_tripadvisor::___("Enable"); ?></a>
+<a href="<?php echo wp_nonce_url('?page='. sanitize_text_field($_GET['page']) .'&tab=advanced&auto_update', 'ti-auto-update'); ?>" class="btn-text btn-refresh"><?php echo TrustindexPlugin_tripadvisor::___("Enable"); ?></a>
 <div class="ti-notice notice-warning">
 <p><?php echo TrustindexPlugin_tripadvisor::___("You should enable it, to get new features and fixes automatically, right after they published!"); ?></p>
 </div>

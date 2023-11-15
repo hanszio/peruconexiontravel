@@ -111,7 +111,7 @@ jQuery(".ti-review-content").TI_shorten({
 jQuery(".ti-review-content").TI_format();
 ');
 $downloadTimestamp = get_option($trustindex_pm_tripadvisor->get_option_name('download-timestamp'), time() - 1);
-$pageDetails = get_option($trustindex_pm_tripadvisor->get_option_name('page-details'));
+$pageDetails = $trustindex_pm_tripadvisor->getPageDetails();
 ?>
 <?php if (!$trustindex_pm_tripadvisor->is_noreg_linked()): ?>
 <div class="ti-notice notice-warning" style="margin-left: 0">
@@ -147,11 +147,11 @@ $pageDetails = get_option($trustindex_pm_tripadvisor->get_option_name('page-deta
 <div class="ti-notice notice-info" style="margin: 15px 0; display: none" id="ti-connect-info">
 <p><?php echo TrustindexPlugin_tripadvisor::___("A popup window should be appear! Please, go to there and continue the steps! (If there is no popup window, you can check the the browser's popup blocker)"); ?></p>
 </div>
-<?php $pageDetails = get_option($trustindex_pm_tripadvisor->get_option_name('page-details')); ?>
+<?php $pageDetails = $trustindex_pm_tripadvisor->getPageDetails(); ?>
 <input type="hidden" id="ti-noreg-page-id" value="<?php echo esc_attr($pageDetails['id']); ?>" />
 <input type="hidden" id="ti-noreg-webhook-url" value="<?php echo $trustindex_pm_tripadvisor->get_webhook_url(); ?>" />
 <input type="hidden" id="ti-noreg-email" value="<?php echo get_option('admin_email'); ?>" />
-<input type="hidden" id="ti-noreg-version" value="10.9.1" />
+<input type="hidden" id="ti-noreg-version" value="11.0" />
 <?php if (isset($pageDetails['access_token'])): ?>
 <input type="hidden" id="ti-noreg-access-token" value="<?php echo esc_attr($pageDetails['access_token']); ?>" />
 <?php endif; ?>
@@ -166,7 +166,7 @@ update_option($trustindex_pm_tripadvisor->get_option_name('review-download-token
 <?php endif; ?>
 <div class="ti-upgrade-notice">
 <strong><?php echo TrustindexPlugin_tripadvisor::___('UPGRADE to PRO Features'); ?></strong>
-<p><?php echo TrustindexPlugin_tripadvisor::___('Automatic review update, creating unlimited review widgets, downloading and displaying all reviews, %d review platforms available!', [ 66 ]); ?></p>
+<p><?php echo TrustindexPlugin_tripadvisor::___('Automatic review update, creating unlimited review widgets, downloading and displaying all reviews, %d review platforms available!', [ 133 ]); ?></p>
 <a href="https://www.trustindex.io/ti-redirect.php?a=sys&c=wp-tripadvisor-pro" class="btn-text"><?php echo TrustindexPlugin_tripadvisor::___('Create a Free Account for More Features'); ?></a>
 </div>
 <?php if ($isReviewDownloadInProgress === 'error'): ?>

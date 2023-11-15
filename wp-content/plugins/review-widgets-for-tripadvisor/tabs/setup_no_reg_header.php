@@ -25,6 +25,7 @@ global $wpdb;
 if (!$pageDetails) {
 return false;
 }
+$pageDetails['name'] = json_encode($pageDetails['name']);
 $trustindex_pm_tripadvisor->setNotificationParam('not-using-no-connection', 'active', false);
 $trustindex_pm_tripadvisor->setNotificationParam('not-using-no-widget', 'active', true);
 $trustindex_pm_tripadvisor->setNotificationParam('not-using-no-widget', 'timestamp', time() + (2 * 3600));

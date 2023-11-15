@@ -53,9 +53,11 @@ return true;
 }
 public function save_details($tmp)
 {
+$name = isset($tmp['name']) ? sanitize_text_field(stripslashes($tmp['name'])) : "";
+$name = json_encode($name);
 $details = [
 'id' => isset($tmp['page_id']) ? $tmp['page_id'] : $tmp['id'],
-'name' => isset($tmp['name']) ? sanitize_text_field(stripslashes($tmp['name'])) : "",
+'name' => $name,
 'address' => isset($tmp['address']) ? sanitize_text_field(stripslashes($tmp['address'])) : "",
 'avatar_url' => isset($tmp['avatar_url']) ? sanitize_text_field(stripslashes($tmp['avatar_url'])) : "",
 'rating_number' => isset($tmp['reviews']['count']) ? intval($tmp['reviews']['count']) : 0,
@@ -504,7 +506,7 @@ $filePath = __FILE__;
 if (isset($this->plugin_slugs[ $forcePlatform ])) {
 $filePath = preg_replace('/[^\/\\\\]+([\\\\\/]trustindex-plugin\.class\.php)/', $this->plugin_slugs[ $forcePlatform ] . '$1', $filePath);
 }
-$chosedPlatform = new self($forcePlatform, $filePath, "do-not-care-10.9.1", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
+$chosedPlatform = new self($forcePlatform, $filePath, "do-not-care-11.0", "do-not-care-WP Tripadvisor Review Widgets", "do-not-care-Tripadvisor");
 $chosedPlatform->setNotificationParam('not-using-no-widget', 'active', false);
 if (!$chosedPlatform->is_noreg_linked()) {
 return $this->error_box_for_admins(self::___('You have to connect your business (%s)!', [ $forcePlatform ]));
@@ -533,8 +535,16 @@ return self::get_alertbox('error', ' @ <strong>'. self::___('Trustindex plugin')
  */
 public function is_noreg_linked()
 {
-$pageDetails = get_option($this->get_option_name('page-details'));
+$pageDetails = $this->getPageDetails();
 return $pageDetails && !empty($pageDetails);
+}
+public function getPageDetails()
+{
+$pageDetails = get_option($this->get_option_name('page-details'));
+if (isset($pageDetails['name']) && $this->isJson($pageDetails['name'])) {
+$pageDetails['name'] = json_decode($pageDetails['name']);
+}
+return $pageDetails;
 }
 public function noreg_save_css($setChange = false)
 {
@@ -4353,8 +4363,8 @@ private static $widget_footer_filter_texts = array (
  ),
  'pt' => 
  array (
- 'star' => 'Mostrando apenas resenhas com estrelas de RATING_STAR_FILTER',
- 'latest' => 'Mostrando nossas resenhas mais recentes',
+ 'star' => 'Mostrando apenas avaliações com estrelas de RATING_STAR_FILTER',
+ 'latest' => 'Mostrando nossas avaliações mais recentes',
  ),
  'ro' => 
  array (
@@ -5326,7 +5336,7 @@ public function getPageUrl()
 if (!isset(self::$page_urls[ $this->shortname ])) {
 return "";
 }
-$pageDetails = get_option($this->get_option_name('page-details'));
+$pageDetails = $this->getPageDetails();
 if (!$pageDetails) {
 return "";
 }
@@ -5360,7 +5370,7 @@ return preg_match('/&c=\w+&v=\d+/', $pageId) ? 'shop' : 'map';
 }
 public function getReviewPageUrl()
 {
-$pageDetails = get_option($this->get_option_name('page-details'));
+$pageDetails = $this->getPageDetails();
 if (!$pageDetails) {
 return "";
 }
@@ -5374,7 +5384,7 @@ return 'http://search.google.com/local/reviews?placeid=' . $pageId;
 }
 public function getReviewWriteUrl()
 {
-$pageDetails = get_option($this->get_option_name('page-details'));
+$pageDetails = $this->getPageDetails();
 if (!$pageDetails) {
 return "";
 }
@@ -5421,7 +5431,7 @@ private $templateCache = null;
 public function get_noreg_list_reviews($forcePlatform = null, $listAll = false, $defaultStyleId = 4, $defaultSetId = 'light-background', $onlyPreview = false, $defaultReviews = false, $forceDefaultReviews = false)
 {
 global $wpdb;
-$pageDetails = get_option($this->get_option_name('page-details'));
+$pageDetails = $this->getPageDetails();
 $styleId = (int)get_option($this->get_option_name('style-id'), 4);
 $setId = get_option($this->get_option_name('scss-set'), 'light-background');
 $content = get_option($this->get_option_name('review-content'));
@@ -5835,6 +5845,7 @@ if (!in_array($array['style-id'], [ 53, 54 ])) {
 preg_match('/src="([^"]+logo[^\.]*\.svg)"/m', $array['content'], $matches);
 if (isset($matches[1]) && !empty($matches[1])) {
 $array['content'] = str_replace($matches[0], $matches[0] . ' width="150" height="25"', $array['content']);
+$array['content'] = preg_replace('/width="([\d%]+)" height="([\d%]+)"( alt="[^"]+")? width="([\d%]+)" height="([\d%]+)"/', 'width="$1" height="$2"$3', $array['content']);
 }
 }
 return $array['content'];
@@ -6302,6 +6313,10 @@ if ($method !== 'direct' && !defined('FS_METHOD')) {
 return 'direct';
 }
 return $method;
+}
+public function isJson($str) {
+$json = json_decode($str);
+return $json && $str !== $json;
 }
 public function register_block_editor()
 {
